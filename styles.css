@@ -1,0 +1,301 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #0daa41;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0daa41;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0daa41;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para la lista de categorías de productos */
+.categorias-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.categorias-lista li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.categorias-lista li:hover {
+    transform: scale(1.05);
+}
+
+.categorias-lista a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.categorias-lista img {
+    max-width: 100%;
+    height: auto;
+}
+
+.categorias-lista h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.categorias-lista p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Estilos adicionales, como fondo y espaciado */
+#catalogo {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#catalogo h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0daa41;
+}
+
+/* Estilos para la lista de subcategorías */
+.subcategorias-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.subcategorias-lista li {
+    flex: 1;
+    text-align: center;
+}
+
+.subcategorias-lista a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.subcategorias-lista a:hover {
+    color: #0daa41;
+}
+
+/* Estilos para la lista de productos */
+.productos-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productos-lista li {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.productos-lista li:hover {
+    transform: scale(1.05);
+}
+
+.productos-lista img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.productos-lista h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.productos-lista p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.productos-lista button {
+    background-color: #0daa41;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.productos-lista button:hover {
+    background-color: #0c9438;
+}
+
+/* Estilos para el carrito de compras */
+#carrito {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#carrito h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0daa41;
+}
+
+.carrito-lista {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.carrito-lista li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#vaciar-carrito {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#vaciar-carrito:hover {
+    background-color: #d32f2a;
+}
+
+/* Estilos para la sección de pedidos */
+#pedidos {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#pedidos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0daa41;
+}
+
+#pedidos form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#pedidos label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#pedidos input[type="text"],
+#pedidos input[type="tel"],
+#pedidos input[type="number"],
+#pedidos select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#pedidos small {
+    color: #777;
+    font-size: 12px;
+}
+
+#pedidos button[type="submit"] {
+    background-color: #0daa41;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#pedidos button[type="submit"]:hover {
+    background-color: #0c9438;
+}

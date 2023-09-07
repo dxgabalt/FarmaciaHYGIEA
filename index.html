@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia JJ..HYGIEA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Farmacia Hygea.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+        </div>
+        <h1>Farmacia JJ..HYGIEA</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="banner">
+        <h2>Bienvenidos a Farmacia JJ..HYGIEA Delivery</h2>
+        <p>Realiza tus pedidos de medicamentos y productos de manera rápida y conveniente. ¡Entrega a domicilio garantizada!</p>
+    </section>
+
+    <section id="catalogo">
+        <h2>Nuestro Catálogo</h2>
+        <ul class="categorias-lista">
+            <li>
+                <a href="categoria_medicamentos.html">
+                    <h3>Medicamentos</h3>
+                    <p>Una variedad de medicamentos disponibles.</p>
+                </a>
+            </li>
+            <li>
+                <a href="categoria_bebidas_ginseng.html">
+                    <h3>Bebidas y Ginseng</h3>
+                    <p>Bebidas refrescantes y productos de ginseng.</p>
+                </a>
+            </li>
+            <li>
+                <a href="categoria_galletas_chocolates.html">
+                    <h3>Galletas y Chocolates</h3>
+                    <p>Galletas deliciosas y chocolates irresistibles.</p>
+                </a>
+            </li>
+            <li>
+                <a href="categoria_dulces.html">
+                    <h3>Dulces</h3>
+                    <p>Dulces y golosinas para satisfacer tus antojos.</p>
+                </a>
+            </li>
+            <li>
+                <a href="categoria_estetica.html">
+                    <h3>Estética</h3>
+                    <p>Productos de belleza y cuidado personal.</p>
+                </a>
+            </li>
+            <li>
+                <a href="categoria_ramen.html">
+                    <h3>Ramen</h3>
+                    <p>Ramen delicioso y fácil de preparar.</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+    
+    <section id="pedidos">
+        <h2>Realiza tu Pedido</h2>
+        <form id="pedidoForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <label for="direccion">Dirección de entrega (Centro de Managua):</label>
+            <input type="text" id="direccion" name="direccion" required>
+            <small>Ejemplo de dirección válida: "Calle Principal, Centro de Managua"</small>
+            
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto">
+                <option value="paracetamol">Paracetamol</option>
+                <option value="ibuprofeno">Ibuprofeno</option>
+                <option value="vitaminas">Vitaminas C</option>
+            </select>
+            
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" required>
+            
+            <button type="button" onclick="realizarPedido()">Realizar Pedido</button>
+        </form>
+    </section>
+    <script>
+        function realizarPedido() {
+            const nombre = document.getElementById('nombre').value;
+            const telefono = document.getElementById('telefono').value;
+            const direccion = document.getElementById('direccion').value;
+    
+            // Verifica si la dirección contiene "Centro de Managua"
+            if (direccion.toLowerCase().includes("centro de managua")) {
+                // La dirección es válida, puedes enviar el pedido
+                alert(`Pedido realizado por ${nombre}. Nos pondremos en contacto al número ${telefono}.`);
+            } else {
+                // La dirección no es válida, muestra un mensaje de error
+                alert("Lo sentimos, solo realizamos entregas en el Centro de Managua.");
+            }
+        }
+    </script>
+
+    
+
+    <footer>
+        <p>Todos los derechos reservados &copy; Farmacia JJ..HYGIEA Delivery</p>
+    </footer>
+</body>
+
+</html>

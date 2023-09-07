@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoría Medicamentos - Farmacia JJ..HYGIEA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <header>
+        <!-- Tu encabezado aquí, como en tu archivo original -->
+    </header>
+
+    <section id="categoria-medicamentos">
+        <h2>Medicamentos</h2>
+        <h3>Subcategorías:</h3>
+        <ul class="subcategorias-lista">
+            <li><a href="#antigripales">ANTIGRIPALES</a></li>
+            <li><a href="#anticonceptivos">ANTICONCEPTIVOS</a></li>
+            <li><a href="#cuidado-personal">CUIDADO PERSONAL</a></li>
+            <li><a href="#bebe">BEBE</a></li>
+        </ul>
+
+        <h3 id="antigripales">ANTIGRIPALES</h3>
+        <ul class="productos-lista">
+            <!-- Lista de productos ANTIGRIPALES -->
+            <li>
+                <img src="imagen_antigripal_1.jpg" alt="Antigripal 1">
+                <h4>Nombre del Antigripal 1</h4>
+                <p>Descripción del antigripal y sus beneficios.</p>
+                <p>Precio: $X.XX</p>
+                <button class="agregar-carrito" data-producto="Antigripal 1" data-precio="X.XX">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="imagen_antigripal_2.jpg" alt="Antigripal 2">
+                <h4>Nombre del Antigripal 2</h4>
+                <p>Descripción del antigripal y sus beneficios.</p>
+                <p>Precio: $X.XX</p>
+                <button class="agregar-carrito" data-producto="Antigripal 2" data-precio="X.XX">Agregar al Carrito</button>
+            </li>
+            <!-- Agregar más productos antigripales aquí -->
+        </ul>
+
+        <h3 id="anticonceptivos">ANTICONCEPTIVOS</h3>
+        <ul class="productos-lista">
+            <!-- Lista de productos ANTICONCEPTIVOS -->
+            <li>
+                <img src="imagen_anticonceptivo_1.jpg" alt="Anticonceptivo 1">
+                <h4>Nombre del Anticonceptivo 1</h4>
+                <p>Descripción del anticonceptivo y sus beneficios.</p>
+                <p>Precio: $X.XX</p>
+                <button class="agregar-carrito" data-producto="Anticonceptivo 1" data-precio="X.XX">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="imagen_anticonceptivo_2.jpg" alt="Anticonceptivo 2">
+                <h4>Nombre del Anticonceptivo 2</h4>
+                <p>Descripción del anticonceptivo y sus beneficios.</p>
+                <p>Precio: $X.XX</p>
+                <button class="agregar-carrito" data-producto="Anticonceptivo 2" data-precio="X.XX">Agregar al Carrito</button>
+            </li>
+            <!-- Agregar más productos anticonceptivos aquí -->
+        </ul>
+
+        <h3 id="cuidado-personal">CUIDADO PERSONAL</h3>
+            <ul class="productos-lista">
+                <!-- Lista de productos CUIDADO PERSONAL -->
+                <li>
+                    <img src="imagen_cuidado_personal_1.jpg" alt="Cuidado Personal 1">
+                    <h4>Nombre del Producto de Cuidado Personal 1</h4>
+                    <p>Descripción del producto de cuidado personal y sus beneficios.</p>
+                    <p>Precio: $X.XX</p>
+                    <button class="agregar-carrito" data-producto="Producto de Cuidado Personal 1" data-precio="X.XX">Agregar al Carrito</button>
+                </li>
+                <li>
+                    <img src="imagen_cuidado_personal_2.jpg" alt="Cuidado Personal 2">
+                    <h4>Nombre del Producto de Cuidado Personal 2</h4>
+                    <p>Descripción del producto de cuidado personal y sus beneficios.</p>
+                    <p>Precio: $X.XX</p>
+                    <button class="agregar-carrito" data-producto="Producto de Cuidado Personal 2" data-precio="X.XX">Agregar al Carrito</button>
+                </li>
+                <!-- Agregar más productos de cuidado personal aquí -->
+            </ul>
+
+
+            <h3 id="bebe">BEBE</h3>
+            <ul class="productos-lista">
+                <!-- Lista de productos BEBE -->
+                <li>
+                    <img src="imagen_bebe_1.jpg" alt="Producto para Bebés 1">
+                    <h4>Nombre del Producto para Bebés 1</h4>
+                    <p>Descripción del producto para bebés y sus beneficios.</p>
+                    <p>Precio: $X.XX</p>
+                    <button class="agregar-carrito" data-producto="Producto para Bebés 1" data-precio="X.XX">Agregar al Carrito</button>
+                </li>
+                <li>
+                    <img src="imagen_bebe_2.jpg" alt="Producto para Bebés 2">
+                    <h4>Nombre del Producto para Bebés 2</h4>
+                    <p>Descripción del producto para bebés y sus beneficios.</p>
+                    <p>Precio: $X.XX</p>
+                    <button class="agregar-carrito" data-producto="Producto para Bebés 2" data-precio="X.XX">Agregar al Carrito</button>
+                </li>
+                <!-- Agregar más productos para bebés aquí -->
+            </ul>
+            
+
+    </section>
+
+    <!-- Otras secciones o contenido adicional que desees en la página -->
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul class="carrito-lista">
+            <!-- Lista de productos en el carrito -->
+        </ul>
+        <p>Total: <span id="total">$0.00</span></p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+    </section>
+
+    <footer>
+        <!-- Tu pie de página aquí, como en tu archivo original -->
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
