@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Vitaminas</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_vitamina_e_capsulas.jpg" alt="Vitamina E Cápsulas - El Mana Unidad">
+            <h4>Vitamina E Cápsulas - El Mana Unidad</h4>
+            <p>C$5.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitamina E" data-precio="5.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_cerebro_vit_tabletas.jpg" alt="Cerebro Vit Tabletas Unidad Ceguel">
+            <h4>Cerebro Vit Tabletas Unidad Ceguel</h4>
+            <p>C$6.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Cerebro Vit" data-precio="6.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Repite la estructura para los demás productos -->
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_cerebrofos_capsulas.jpg" alt="Cerebrofos Cápsulas Unidad">
+            <h4>Cerebrofos Cápsulas Unidad</h4>
+            <p>C$7.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Cerebrofos" data-precio="7.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_sukrol_tabletas.jpg" alt="Sukrol Tabletas Unidad Farmamedica">
+            <h4>Sukrol Tabletas Unidad Farmamedica</h4>
+            <p>C$3.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Sukrol" data-precio="3.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_nutrison_h3_plus_capsulas.jpg" alt="Nutrison H3 Plus Cápsulas Unidad Infasa">
+            <h4>Nutrison H3 Plus Cápsulas Unidad Infasa</h4>
+            <p>C$9.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Nutrison H3 Plus" data-precio="9.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_immuvit_plus_q10_capsulas.jpg" alt="Immuvit Plus Q10 Cápsulas Unidad Rowe">
+            <h4>Immuvit Plus Q10 Cápsulas Unidad Rowe</h4>
+            <p>C$22.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Immuvit Plus Q10" data-precio="22.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_tiaminal_b12_capsulas.jpg" alt="Tiaminal B12 Cápsulas Unidad Silanes">
+            <h4>Tiaminal B12 Cápsulas Unidad Silanes</h4>
+            <p>C$7.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Tiaminal B12" data-precio="7.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_nuerofortan_capsulas.jpg" alt="Nuerofortan Cápsulas Unidad Infasa">
+            <h4>Nuerofortan Cápsulas Unidad Infasa</h4>
+            <p>C$3.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Nuerofortan" data-precio="3.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_supertiamina_tiamina_cafeina_tab_300mg.jpg" alt="Supertiamina (Tiamina y Cafeína) Tab 300 mg Ramos">
+            <h4>Supertiamina (Tiamina y Cafeína) Tab 300 mg Ramos</h4>
+            <p>C$3.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Supertiamina" data-precio="3.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_sulfato_ferroso_acido_folico_tabl.jpg" alt="Sulfato Ferroso + Acido Fólico Tabl. Unidad Ramos">
+            <h4>Sulfato Ferroso + Acido Fólico Tabl. Unidad Ramos</h4>
+            <p>C$2.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Sulfato Ferroso + Acido Fólico" data-precio="2.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_vita_adk_5-e_ampolla_bebible_pediatrico.jpg" alt="Vita ADK 5-E Ampolla Bebible Pediátrico Unidad Ramos">
+            <h4>Vita ADK 5-E Ampolla Bebible Pediátrico Unidad Ramos</h4>
+            <p>C$39.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Vita ADK 5-E" data-precio="39.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_astroton_h4_ginseng_multivitamina.jpg" alt="Astroton H4 Ginseng Multivitamina Unidad Lancasco">
+            <h4>Astroton H4 Ginseng Multivitamina Unidad Lancasco</h4>
+            <p>C$7.14 NIO</p>
+            <button class="agregar-carrito" data-producto="Astroton H4 Ginseng" data-precio="7.14">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_ginseng_bebible_sin_azucar_unidad.jpg" alt="Ginseng Bebible Sin Azúcar Unidad Vesa">
+            <h4>Ginseng Bebible Sin Azúcar Unidad Vesa</h4>
+            <p>C$24.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Ginseng Bebible" data-precio="24.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_ginkgo_biloba_bebible_sin_azucar_unidad.jpg" alt="Ginkgo Biloba Bebible Sin Azúcar Unidad Vesa">
+            <h4>Ginkgo Biloba Bebible Sin Azúcar Unidad Vesa</h4>
+            <p>C$26.59 NIO</p>
+            <button class="agregar-carrito" data-producto="Ginkgo Biloba Bebible" data-precio="26.59">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_foskrol_ginseng_bebible_pueden_tomarlo_diabeticos.jpg" alt="Foskrol Ginseng Bebible Pueden Tomarlo Diabéticos Unidad BK">
+            <h4>Foskrol Ginseng Bebible Pueden Tomarlo Diabéticos Unidad BK</h4>
+            <p>C$34.64 NIO</p>
+            <button class="agregar-carrito" data-producto="Foskrol Ginseng" data-precio="34.64">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_renergin_plus_bebible_vitaminas_sompejo_b.jpg" alt="Renergin Plus Bebible Vitaminas, Sompejo B. Unidad Nuvora">
+            <h4>Renergin Plus Bebible Vitaminas, Sompejo B. Unidad Nuvora</h4>
+            <p>C$36.43 NIO</p>
+            <button class="agregar-carrito" data-producto="Renergin Plus" data-precio="36.43">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_vita_forte_capsulas_b1_b6_b12.jpg" alt="Vita Forte Cápsulas B1, B6, B12. Unidad Ramos">
+            <h4>Vita Forte Cápsulas B1, B6, B12. Unidad Ramos</h4>
+            <p>C$4.01 NIO</p>
+            <button class="agregar-carrito" data-producto="Vita Forte" data-precio="4.01">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_sukrol_ampolla_bebible_reforzado_complejo_b.jpg" alt="Sukrol Ampolla Bebible Reforzado Complejo B. Unidad">
+            <h4>Sukrol Ampolla Bebible Reforzado Complejo B. Unidad</h4>
+            <p>C$22.89 NIO</p>
+            <button class="agregar-carrito" data-producto="Sukrol Ampolla" data-precio="22.89">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_reofer_fol_sulfato_ferroso_acido_folico_capsula.jpg" alt="Reofer Fol Sulfato Ferroso + Acido Fólico Cápsula. Unidad Reannon">
+            <h4>Reofer Fol Sulfato Ferroso + Acido Fólico Cápsula. Unidad Reannon</h4>
+            <p>C$7.48 NIO</p>
+            <button class="agregar-carrito" data-producto="Reofer Fol" data-precio="7.48">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_omega_3_capsula_blanda.jpg" alt="Omega 3 Cápsula Blanda. Unidad Kurantis">
+            <h4>Omega 3 Cápsula Blanda. Unidad Kurantis</h4>
+            <p>C$3.73 NIO</p>
+            <button class="agregar-carrito" data-producto="Omega 3" data-precio="3.73">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_cromatonbic_ferro_comprimidos.jpg" alt="Cromatonbic Ferro Comprimidos. Unidad Menarini">
+            <h4>Cromatonbic Ferro Comprimidos. Unidad Menarini</h4>
+            <p>C$16.86 NIO</p>
+            <button class="agregar-carrito" data-producto="Cromatonbic Ferro" data-precio="16.86">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_vital_fuerte_bebible.jpg" alt="Vital Fuerte Bebible. Unidad">
+            <h4>Vital Fuerte Bebible. Unidad</h4>
+            <p>C$21.88 NIO</p>
+            <button class="agregar-carrito" data-producto="Vital Fuerte" data-precio="21.88">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_vital_fuerte_vitamina_mineral_compeljo_b_capsulas.jpg" alt="Vital Fuerte Vitamina Mineral Complejo B Cápsulas Unidad">
+            <h4>Vital Fuerte Vitamina Mineral Complejo B Cápsulas Unidad</h4>
+            <p>C$6.69 NIO</p>
+            <button class="agregar-carrito" data-producto="Vital Fuerte Complejo B" data-precio="6.69">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 24 -->
+        <li>
+            <img src="imagen_calplex_calcio_vitamina_d_comprimido.jpg" alt="Calplex Calcio y Vitamina D Comprimido Unidad Infasa">
+            <h4>Calplex Calcio y Vitamina D Comprimido Unidad Infasa</h4>
+            <p>C$7.16 NIO</p>
+            <button class="agregar-carrito" data-producto="Calplex Calcio y Vitamina D" data-precio="7.16">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 25 -->
+        <li>
+            <img src="imagen_nucleo_forte_cmp_capsula_unidad_ferrer.jpg" alt="Nucleo Forte C.M.P Cápsula Unidad Ferrer">
+            <h4>Nucleo Forte C.M.P Cápsula Unidad Ferrer</h4>
+            <p>C$15.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Nucleo Forte C.M.P" data-precio="15.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 26 -->
+        <li>
+            <img src="imagen_alta_etress_vitamina_cerebro_nervioso_tableta_unidad_altasa.jpg" alt="Alta Etress Vitamina Cerebro y Nervioso Tableta Unidad Altasa">
+            <h4>Alta Etress Vitamina Cerebro y Nervioso Tableta Unidad Altasa</h4>
+            <p>C$6.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Alta Etress" data-precio="6.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 27 -->
+        <li>
+            <img src="imagen_renuvit_vitamina_c_500mg_capsula.jpg" alt="Renuvit Vitamina C 500mg Cápsula Unidad">
+            <h4>Renuvit Vitamina C 500mg Cápsula Unidad</h4>
+            <p>C$7.33 NIO</p>
+            <button class="agregar-carrito" data-producto="Renuvit Vitamina C 500mg" data-precio="7.33">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 28 -->
+        <li>
+            <img src="imagen_cardiovital_con_omega_3_capsula_unidad.jpg" alt="Cardiovital con Omega 3 Cápsula Unidad">
+            <h4>Cardiovital con Omega 3 Cápsula Unidad</h4>
+            <p>C$7.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Cardiovital con Omega 3" data-precio="7.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 29 -->
+        <li>
+            <img src="imagen_vitalgia_vitaminas_b1_b6_b12_capleta_unidad_ramos.jpg" alt="Vitalgia Vitaminas B1, B6, B12 Capleta Unidad Ramos">
+            <h4>Vitalgia Vitaminas B1, B6, B12 Capleta Unidad Ramos</h4>
+            <p>C$7.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitalgia Vitaminas" data-precio="7.10">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>
