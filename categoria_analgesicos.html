@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Productos Analgésicos</h2>
+    <ul class="productos-lista">
+
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_ibuprofen_600mg.jpg" alt="Ibuprofen Tab. 600 mg Caplin/Blister x 10 Tab">
+            <h4>Ibuprofen Tab. 600 mg Caplin/Blister x 10 Tab</h4>
+            <p>C$17.30 NIO</p>
+            <button class="agregar-carrito" data-producto="Ibuprofen 600mg" data-precio="17.30">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_ibuprofen_800mg.jpg" alt="Ibuprofen Tab. 800 mg Caplin/Blister x 10 Tab">
+            <h4>Ibuprofen Tab. 800 mg Caplin/Blister x 10 Tab</h4>
+            <p>C$23.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Ibuprofen 800mg" data-precio="23.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_ibuprofenotab_400mg.jpg" alt="Ibuprofenotab. 400 mg Ramos/Blister x 10 Tab">
+            <h4>Ibuprofenotab. 400 mg Ramos/Blister x 10 Tab</h4>
+            <p>C$16.03 NIO</p>
+            <button class="agregar-carrito" data-producto="Ibuprofenotab 400mg" data-precio="16.03">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_ibuprofeno_gel_caps_600mg.jpg" alt="Ibuprofeno Gel Caps 600mg-MK/Blister x 2 Caps">
+            <h4>Ibuprofeno Gel Caps 600mg-MK/Blister x 2 Caps</h4>
+            <p>C$32.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Ibuprofeno Gel Caps 600mg-MK" data-precio="32.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_acetaminofen_capletas_500mg.jpg" alt="Acetaminofen Capletas 500 mg Ramos/Blister x 10 Tab">
+            <h4>Acetaminofen Capletas 500 mg Ramos/Blister x 10 Tab</h4>
+            <p>C$19.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Acetaminofen 500mg" data-precio="19.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_acetaminofen_ninos_tabl_mast_80mg.jpg" alt="Acetaminofen Niños Tabl Mastic 80 mg Ramos/Blister x 4 Tab">
+            <h4>Acetaminofen Niños Tabl Mastic 80 mg Ramos/Blister x 4 Tab</h4>
+            <p>C$13.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Acetaminofen Niños 80mg" data-precio="13.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_delor_extrafuerte_tableta.jpg" alt="Delor Extrafuerte Tableta 1 Sobre">
+            <h4>Delor Extrafuerte Tableta 1 Sobre</h4>
+            <p>C$5.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Delor Extrafuerte" data-precio="5.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_delor_ninos_tab_masticable.jpg" alt="Delor Niños Tab Masticable Blister x 4 Tab">
+            <h4>Delor Niños Tab Masticable Blister x 4 Tab</h4>
+            <p>C$6.92 NIO</p>
+            <button class="agregar-carrito" data-producto="Delor Niños" data-precio="6.92">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_dolofin_adulto_tableta_unidad.jpg" alt="Dolofin Adulto Tableta Unidad Blister x 2 Tab">
+            <h4>Dolofin Adulto Tableta Unidad Blister x 2 Tab</h4>
+            <p>C$5.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolofin Adulto" data-precio="5.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_dolofin_nino_tab_masticable_blister_x4.jpg" alt="Dolofin Niño Tab Masticable Blister x 4 Tab">
+            <h4>Dolofin Niño Tab Masticable Blister x 4 Tab</h4>
+            <p>C$11.52 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolofin Niño" data-precio="11.52">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_dolo-vitalgia_tab.jpg" alt="Dolo-Vitalgia (Diclofenac + Vit B1,6,12) Ramos/Blister x 4 Tab">
+            <h4>Dolo-Vitalgia (Diclofenac + Vit B1,6,12) Ramos/Blister x 4 Tab</h4>
+            <p>C$33.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolo-Vitalgia" data-precio="33.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_doloneurobion_n_tableta.jpg" alt="Doloneurobion N Tableta Blister x 2 Tab">
+            <h4>Doloneurobion N Tableta Blister x 2 Tab</h4>
+            <p>C$37.26 NIO</p>
+            <button class="agregar-carrito" data-producto="Doloneurobion N" data-precio="37.26">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_doloneurobion_xr_tableta_unidad.jpg" alt="Doloneurobion XR Tableta Unidad">
+            <h4>Doloneurobion XR Tableta Unidad</h4>
+            <p>C$38.44 NIO</p>
+            <button class="agregar-carrito" data-producto="Doloneurobion XR" data-precio="38.44">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_aleve_extra_fuerte_bayer.jpg" alt="Aleve Extra Fuerte Bayer Blister x 3 Tab">
+            <h4>Aleve Extra Fuerte Bayer Blister x 3 Tab</h4>
+            <p>C$31.29 NIO</p>
+            <button class="agregar-carrito" data-producto="Aleve Extra Fuerte" data-precio="31.29">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_enantyum_bebible.jpg" alt="Enantyum Bebible Unidad Menarini">
+            <h4>Enantyum Bebible Unidad Menarini</h4>
+            <p>C$80.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Enantyum Bebible" data-precio="80.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_novalgina_tableta_500mg.jpg" alt="Novalgina Tableta 500 mg Blister x 4 Tab">
+            <h4>Novalgina Tableta 500 mg Blister x 4 Tab</h4>
+            <p>C$21.64 NIO</p>
+            <button class="agregar-carrito" data-producto="Novalgina 500mg" data-precio="21.64">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_milagrosa_tableta.jpg" alt="Milagrosa Tableta Blister x 10 Tab">
+            <h4>Milagrosa Tableta Blister x 10 Tab</h4>
+            <p>C$17.30 NIO</p>
+            <button class="agregar-carrito" data-producto="Milagrosa" data-precio="17.30">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_ibuprofen_fenodol_capsulas_gelatina_400mg.jpg" alt="Ibuprofen Fenodol Cápsulas Gelatina 400 mg. Blister x 5 Tab">
+            <h4>Ibuprofen Fenodol Cápsulas Gelatina 400 mg. Blister x 5 Tab</h4>
+            <p>C$28.95 NIO</p>
+            <button class="agregar-carrito" data-producto="Ibuprofen Fenodol 400mg" data-precio="28.95">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_dolgenal_ketorolaco_tableta_20mg.jpg" alt="Dolgenal Ketorolaco Tableta 20 mg. Unidad. Asofarma">
+            <h4>Dolgenal Ketorolaco Tableta 20 mg. Unidad. Asofarma</h4>
+            <p>C$33.41 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolgenal Ketorolaco 20mg" data-precio="33.41">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_vitaflenaco_capsula_blanda.jpg" alt="Vitaflenaco Cápsula Blanda. Blister x 5 Tab.">
+            <h4>Vitaflenaco Cápsula Blanda. Blister x 5 Tab.</h4>
+            <p>C$28.95 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitaflenaco" data-precio="28.95">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_delor_ninos_sabor_chicle_tableta.jpg" alt="Delor Niños Sabor Chicle Tableta. Blister x 4 Tab">
+            <h4>Delor Niños Sabor Chicle Tableta. Blister x 4 Tab</h4>
+            <p>C$6.92 NIO</p>
+            <button class="agregar-carrito" data-producto="Delor Niños Sabor Chicle" data-precio="6.92">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_dolo_vitalgia_tableta.jpg" alt="Dolo Vitalgia Tableta Ramos/Blister x 4 Tab">
+            <h4>Dolo Vitalgia Tableta Ramos/Blister x 4 Tab</h4>
+            <p>C$33.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolo Vitalgia" data-precio="33.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_diclorarpe_diclofenac_sodico_tableta_50mg.jpg" alt="Diclorarpe Diclofenac Sódico Tableta 50 mg Ramos/Blister x 4 Tab">
+            <h4>Diclorarpe Diclofenac Sódico Tableta 50 mg Ramos/Blister x 4 Tab</h4>
+            <p>C$7.56 NIO</p>
+            <button class="agregar-carrito" data-producto="Diclorarpe 50mg" data-precio="7.56">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 24 -->
+        <li>
+            <img src="imagen_diclorarpe_forte_diclofenac_sodico_100mg.jpg" alt="Diclorarpe Forte Diclofenac Sódico 100 mg Ramos/Blister x 4 Tab">
+            <h4>Diclorarpe Forte Diclofenac Sódico 100 mg Ramos/Blister x 4 Tab</h4>
+            <p>C$30.32 NIO</p>
+            <button class="agregar-carrito" data-producto="Diclorarpe Forte 100mg" data-precio="30.32">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 25 -->
+        <li>
+            <img src="imagen_relaxidin_diclofenac_sodico_clarisoprodol.jpg" alt="Relaxidin Diclofenac Sódico + ClariSoprodol Ramos/Blister x 10 Tab">
+            <h4>Relaxidin Diclofenac Sódico + ClariSoprodol Ramos/Blister x 10 Tab</h4>
+            <p>C$110.60 NIO</p>
+            <button class="agregar-carrito" data-producto="Relaxidin" data-precio="110.60">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 26 -->
+        <li>
+            <img src="imagen_delor_flex_1_sobre_relajante_analgesico.jpg" alt="Delor Flex 1 Sobre Relajante, Analgésico Unidad Karnel">
+            <h4>Delor Flex 1 Sobre Relajante, Analgésico Unidad Karnel</h4>
+            <p>C$16.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Delor Flex" data-precio="16.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 27 -->
+        <li>
+            <img src="imagen_delor_extrafuerte_tableta_1_sobre.jpg" alt="Delor Extrafuerte Tableta 1 Sobre Dolor, Fiebre Unidad">
+            <h4>Delor Extrafuerte Tableta 1 Sobre Dolor, Fiebre Unidad</h4>
+            <p>C$5.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Delor Extrafuerte" data-precio="5.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 28 -->
+        <li>
+            <img src="imagen_dolofin_adulto_tableta_con_vitamina.jpg" alt="Dolofin Adulto Tableta con Vitamina Blister x 2 Tab">
+            <h4>Dolofin Adulto Tableta con Vitamina Blister x 2 Tab</h4>
+            <p>C$5.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolofin Adulto" data-precio="5.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 29 -->
+        <li>
+            <img src="imagen_daflon_tabl_500mg.jpg" alt="Daflon Tabl 500 mg. Blister x 4 Tab">
+            <h4>Daflon Tabl 500 mg. Blister x 4 Tab</h4>
+            <p>C$61.28 NIO</p>
+            <button class="agregar-carrito" data-producto="Daflon 500mg" data-precio="61.28">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 30 -->
+        <li>
+            <img src="imagen_venosmil_capsula.jpg" alt="Venosmil Cápsula Blister x 10 Caps">
+            <h4>Venosmil Cápsula Blister x 10 Caps</h4>
+            <p>C$134.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Venosmil" data-precio="134.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 31 -->
+        <li>
+            <img src="imagen_avamigran_contra_migrana_y_cefalea.jpg" alt="Avamigran Contra Migraña y Cefalea Blister x 5 Tab">
+            <h4>Avamigran Contra Migraña y Cefalea Blister x 5 Tab</h4>
+            <p>C$85.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Avamigran" data-precio="85.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 32 -->
+        <li>
+            <img src="imagen_migretil_jaqueca.jpg" alt="Migretil Jaqueca Blister x 5 Tab">
+            <h4>Migretil Jaqueca Blister x 5 Tab</h4>
+            <p>C$77.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Migretil" data-precio="77.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 33 -->
+        <li>
+            <img src="imagen_aspirina_forte.jpg" alt="Aspirina Forte Blister x 10 Tab">
+            <h4>Aspirina Forte Blister x 10 Tab</h4>
+            <p>C$46.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Aspirina Forte" data-precio="46.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 34 -->
+        <li>
+            <img src="imagen_aspirina_ninos.jpg" alt="Aspirina Niños Blister x 10 Tab">
+            <h4>Aspirina Niños Blister x 10 Tab</h4>
+            <p>C$26.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Aspirina Niños" data-precio="26.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 35 -->
+        <li>
+            <img src="imagen_urogesic_fenazopiridina_200mg.jpg" alt="Urogesic Fenazopiridina 200 mg. Dolor orinar, Cisitis Blister x 5 Tab">
+            <h4>Urogesic Fenazopiridina 200 mg. Dolor orinar, Cisitis Blister x 5 Tab</h4>
+            <p>C$90.15 NIO</p>
+            <button class="agregar-carrito" data-producto="Urogesic Fenazopiridina" data-precio="90.15">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 36 -->
+        <li>
+            <img src="imagen_pyridium_fenazopiridina_100mg.jpg" alt="Pyridium Fenazopiridina 100 mg. Dolor orinar, Cistitis Blister x 5 Tab">
+            <h4>Pyridium Fenazopiridina 100 mg. Dolor orinar, Cistitis Blister x 5 Tab</h4>
+            <p>C$81.60 NIO</p>
+            <button class="agregar-carrito" data-producto="Pyridium Fenazopiridina" data-precio="81.60">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 37 -->
+        <li>
+            <img src="imagen_nitrofurantoina_100mg.jpg" alt="Nitrofurantoina 100 mg. Cistitis Blister x 10 Tab">
+            <h4>Nitrofurantoina 100 mg. Cistitis Blister x 10 Tab</h4>
+            <p>C$53.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Nitrofurantoina" data-precio="53.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 38 -->
+        <li>
+            <img src="imagen_acido_mefenamico_dolor_colico_mestru.jpg" alt="Acido Mefenamico Dolor, Colico Menstrual Blister x 4 Tab">
+            <h4>Acido Mefenamico Dolor, Colico Menstrual Blister x 4 Tab</h4>
+            <p>C$32.23 NIO</p>
+            <button class="agregar-carrito" data-producto="Acido Mefenamico" data-precio="32.23">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 39 -->
+        <li>
+            <img src="imagen_dorival_gel_caps_dolor_e_inflamacion_mestru.jpg" alt="Dorival Gel Caps Dolor e Inflamacion Menstrual Blister x 4 Caps">
+            <h4>Dorival Gel Caps Dolor e Inflamacion Menstrual Blister x 4 Caps</h4>
+            <p>C$48.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Dorival Gel Caps" data-precio="48.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 40 -->
+        <li>
+            <img src="imagen_clavulin_amoxicilina_acido_clavulanico.jpg" alt="Clavulin Amoxicilina + Acido Clavulanico Blister x 2 Tableta Roemmers">
+            <h4>Clavulin Amoxicilina + Acido Clavulanico Blister x 2 Tableta Roemmers</h4>
+            <p>C$82.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Clavulin" data-precio="82.90">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

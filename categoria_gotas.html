@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="productos">
+    <h3>Gotas</h3>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_colirio_coliris_oftalmico_acido_borico.jpg" alt="Colirio Coliris Oftalmico Acido Borico">
+            <h4>Colirio Coliris Oftalmico Acido Borico</h4>
+            <p>C$53.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Colirio Coliris Oftalmico Acido Borico" data-precio="53.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_carminol_fco_15ml.jpg" alt="Carminol Fco 15ml">
+            <h4>Carminol Fco 15ml</h4>
+            <p>C$64.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Carminol Fco 15ml" data-precio="64.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_acetaminofen_gotas_30ml.jpg" alt="Acetaminofen Gotas 30ml">
+            <h4>Acetaminofen Gotas 30ml</h4>
+            <p>C$35.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Acetaminofen Gotas 30ml" data-precio="35.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_neurovit_vit_b1_b6_b12_gotas_pediatricas_fco_15ml.jpg" alt="Neurovit Vit B1,B6,B12. Gotas Pediatricas Fco 15ml">
+            <h4>Neurovit Vit B1,B6,B12. Gotas Pediatricas Fco 15ml</h4>
+            <p>C$49.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Neurovit Gotas Pediatricas" data-precio="49.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_odontil_aceite_de_clavo_y_benzocaina_gotas_fco_15ml.jpg" alt="Odontil (Aceite de Clavo y Benzocaína) Gotas Fco 15ml">
+            <h4>Odontil (Aceite de Clavo y Benzocaína) Gotas Fco 15ml</h4>
+            <p>C$60.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Odontil Gotas" data-precio="60.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_diclofen_gotas_oral_sabor_tuti_fruti_10ml.jpg" alt="Diclofen Gotas Oral Sabor Tuti Fruti 10ml">
+            <h4>Diclofen Gotas Oral Sabor Tuti Fruti 10ml</h4>
+            <p>C$68.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Diclofen Gotas Tuti Fruti" data-precio="68.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_colirio_lagrimas_artificial_15ml.jpg" alt="Colirio Lagrimas Artificial 15ml">
+            <h4>Colirio Lagrimas Artificial 15ml</h4>
+            <p>C$109.25 NIO</p>
+            <button class="agregar-carrito" data-producto="Colirio Lagrimas Artificial" data-precio="109.25">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_ketomatx_colirio_oftalmico_5ml.jpg" alt="Ketomatx Colirio Oftalmico 5ml">
+            <h4>Ketomatx Colirio Oftalmico 5ml</h4>
+            <p>C$287.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Ketomatx Colirio Oftalmico" data-precio="287.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_mometasona_solucion_topica_con_atomizador_1ml.jpg" alt="Mometasona Solucion Topica con Atomizador 1ml">
+            <h4>Mometasona Solucion Topica con Atomizador 1ml</h4>
+            <p>C$174.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Mometasona Solucion Topica" data-precio="174.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_enema_adulto_fco_fleet.jpg" alt="Enema Adulto Fco Fleet">
+            <h4>Enema Adulto Fco Fleet</h4>
+            <p>C$75.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Enema Adulto" data-precio="75.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_pro_rinal_0.50_mg_niño_descongestionante_nasal_15ml.jpg" alt="Pro Rinal 0.50 mg Niño Descongestionante Nasal 15ml">
+            <h4>Pro Rinal 0.50 mg Niño Descongestionante Nasal 15ml</h4>
+            <p>C$45.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pro Rinal Niño" data-precio="45.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_pro_rinal_1_mg_adulto_descongestionante_nasal_15ml.jpg" alt="Pro Rinal 1 mg Adulto Descongestionante Nasal 15ml">
+            <h4>Pro Rinal 1 mg Adulto Descongestionante Nasal 15ml</h4>
+            <p>C$48.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pro Rinal Adulto" data-precio="48.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_piopel_topico_1_por_ciento_mata_piojo_y_liendre_60ml.jpg" alt="Piopel Topico 1% Mata Piojo y Liendre 60ml">
+            <h4>Piopel Topico 1% Mata Piojo y Liendre 60ml</h4>
+            <p>C$83.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Piopel Topico" data-precio="83.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_piopel_topico_1_por_ciento_mata_piojo_y_liendre_30ml.jpg" alt="Piopel Topico 1% Mata Piojo y Liendre 30ml">
+            <h4>Piopel Topico 1% Mata Piojo y Liendre 30ml</h4>
+            <p>C$49.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Piopel Topico" data-precio="49.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_oximetazolina_0.025_por_ciento_solucion_nasal_infantil.jpg" alt="Oximetazolina 0.025% Solucion Nasal Infantil">
+            <h4>Oximetazolina 0.025% Solucion Nasal Infantil</h4>
+            <p>C$64.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Oximetazolina Infantil" data-precio="64.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_oximetazolina_0.05_por_ciento_solucion_nasal.jpg" alt="Oximetazolina 0.05% Solucion Nasal">
+            <h4>Oximetazolina 0.05% Solucion Nasal</h4>
+            <p>C$64.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Oximetazolina" data-precio="64.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_colirio_ofta_gentil_10ml.jpg" alt="Colirio Ofta Gentil 10ml">
+            <h4>Colirio Ofta Gentil 10ml</h4>
+            <p>C$69.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Colirio Ofta Gentil" data-precio="69.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_panesia_fco_topico_10_por_ciento.jpg" alt="Panesia Fco Topico 10%">
+            <h4>Panesia Fco Topico 10%</h4>
+            <p>C$65.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Panesia Fco Topico" data-precio="65.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_clotrimazol_gotas_topicas.jpg" alt="Clotrimazol Gotas Topicas">
+            <h4>Clotrimazol Gotas Topicas</h4>
+            <p>C$25.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Clotrimazol Gotas" data-precio="25.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_salbutamol_0.5_por_ciento_para_nebulizar_20ml.jpg" alt="Salbutamol 0.5% Para Nebulizar 20ml">
+            <h4>Salbutamol 0.5% Para Nebulizar 20ml</h4>
+            <p>C$65.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Salbutamol Para Nebulizar" data-precio="65.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_ketogin_s_hampoo_2_por_ciento_topico_fco_60ml.jpg" alt="Ketogin S Hampoo 2% Topico Fco 60ml">
+            <h4>Ketogin S Hampoo 2% Topico Fco 60ml</h4>
+            <p>C$155.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Ketogin S Hampoo" data-precio="155.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_irs_gotas_pediatricas.jpg" alt="IRS Gotas Pediatricas">
+            <h4>IRS Gotas Pediatricas</h4>
+            <p>C$115.00 NIO</p>
+            <button class="agregar-carrito" data-producto="IRS Gotas Pediatricas" data-precio="115.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_zanate_topico_elimina_piojos_y_liendre_30ml.jpg" alt="Zanate Topico Elimina Piojos y Liendre 30ml">
+            <h4>Zanate Topico Elimina Piojos y Liendre 30ml</h4>
+            <p>C$33.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Zanate Topico" data-precio="33.00">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

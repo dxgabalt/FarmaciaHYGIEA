@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Anticonceptivos</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_condon_durex_clasico.jpg" alt="Condón Durex Clásico Caja x 3">
+            <h4>Condón Durex Clásico Caja x 3</h4>
+            <p>C$90.85 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Clásico" data-precio="90.85">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_condon_durex_climax_mutuo.jpg" alt="Condón Durex Climax Mutuo Caja x 3">
+            <h4>Condón Durex Climax Mutuo Caja x 3</h4>
+            <p>C$120.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Climax Mutuo" data-precio="120.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_condon_durex_delgado.jpg" alt="Condón Durex Delgado Caja x 3">
+            <h4>Condón Durex Delgado Caja x 3</h4>
+            <p>C$97.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Delgado" data-precio="97.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_condon_durex_sorpresa_y_placer.jpg" alt="Condón Durex Sorpresa y Placer Caja x 3">
+            <h4>Condón Durex Sorpresa y Placer Caja x 3</h4>
+            <p>C$92.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Sorpresa y Placer" data-precio="92.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_condon_durex_xl.jpg" alt="Condón Durex XL Caja x 3">
+            <h4>Condón Durex XL Caja x 3</h4>
+            <p>C$75.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex XL" data-precio="75.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_condon_durex_extra_seguro.jpg" alt="Condón Durex Extra Seguro Caja x 3">
+            <h4>Condón Durex Extra Seguro Caja x 3</h4>
+            <p>C$75.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Extra Seguro" data-precio="75.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_condon_durex_mx_placer.jpg" alt="Condón Durex MX Placer Caja x 3">
+            <h4>Condón Durex MX Placer Caja x 3</h4>
+            <p>C$92.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex MX Placer" data-precio="92.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_condon_durex_placer_prolongado.jpg" alt="Condón Durex Placer Prolongado Caja x 3">
+            <h4>Condón Durex Placer Prolongado Caja x 3</h4>
+            <p>C$70.55 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Durex Placer Prolongado" data-precio="70.55">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_condon_vive_fresa.jpg" alt="Condón Vive Fresa Caja x 3">
+            <h4>Condón Vive Fresa Caja x 3</h4>
+            <p>C$41.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Fresa" data-precio="41.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_condon_vive_chocolate.jpg" alt="Condón Vive Chocolate Caja x 3">
+            <h4>Condón Vive Chocolate Caja x 3</h4>
+            <p>C$41.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Chocolate" data-precio="41.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_condon_vive_uva.jpg" alt="Condón Vive Uva Caja x 3">
+            <h4>Condón Vive Uva Caja x 3</h4>
+            <p>C$41.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Uva" data-precio="41.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_condon_vive_original.jpg" alt="Condón Vive Original Caja x 3">
+            <h4>Condón Vive Original Caja x 3</h4>
+            <p>C$35.89 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Original" data-precio="35.89">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_condon_vive_menta.jpg" alt="Condón Vive Menta Caja x 3">
+            <h4>Condón Vive Menta Caja x 3</h4>
+            <p>C$41.40 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Menta" data-precio="41.40">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_condon_vive_retardante_texturizado.jpg" alt="Condón Vive Retardante y Texturizado Cajita x 3">
+            <h4>Condón Vive Retardante y Texturizado Cajita x 3</h4>
+            <p>C$27.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Condón Vive Retardante y Texturizado" data-precio="27.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_lubricante_agua_vive_sachet_simple.jpg" alt="Lubricante de Agua Vive Sachet Simple x 1 Sobre">
+            <h4>Lubricante de Agua Vive Sachet Simple x 1 Sobre</h4>
+            <p>C$11.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Lubricante de Agua Vive Sachet Simple" data-precio="11.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_lubricante_agua_vive_gel_sachet_fresa.jpg" alt="Lubricante de Agua Vive Gel Sachet Fresa x 1 Sobre">
+            <h4>Lubricante de Agua Vive Gel Sachet Fresa x 1 Sobre</h4>
+            <p>C$11.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Lubricante de Agua Vive Gel Sachet Fresa" data-precio="11.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_lubricante_vive_simple_tubo_120ml.jpg" alt="Lubricante Vive Simple Tubo 120ml">
+            <h4>Lubricante Vive Simple Tubo 120ml</h4>
+            <p>C$119.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Lubricante Vive Simple Tubo 120ml" data-precio="119.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_lubricante_fresa_tubo_120ml.jpg" alt="Lubricante Fresa Tubo 120ml">
+            <h4>Lubricante Fresa Tubo 120ml</h4>
+            <p>C$116.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Lubricante Fresa Tubo 120ml" data-precio="116.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_mesygina_ampolla_inyeccion.jpg" alt="Mesygina Ampolla Inyección">
+            <h4>Mesygina Ampolla Inyección</h4>
+            <p>C$211.47 NIO</p>
+            <button class="agregar-carrito" data-producto="Mesygina Ampolla Inyección" data-precio="211.47">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_mesygest_inyeccion.jpg" alt="Mesygest Inyección">
+            <h4>Mesygest Inyección</h4>
+            <p>C$159.83 NIO</p>
+            <button class="agregar-carrito" data-producto="Mesygest Inyección" data-precio="159.83">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_reglor_estradiol_benzoato_1ml_inyeccion.jpg" alt="Reclor Estradiol Benzoato 1 ml Inyección">
+            <h4>Reclor Estradiol Benzoato 1 ml Inyección</h4>
+            <p>C$48.43 NIO</p>
+            <button class="agregar-carrito" data-producto="Reclor Estradiol Benzoato" data-precio="48.43">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_amaranto_medroxiprogesterona_inyeccion.jpg" alt="Amaranto Medroxiprogesterona Inyección">
+            <h4>Amaranto Medroxiprogesterona Inyección</h4>
+            <p>C$155.66 NIO</p>
+            <button class="agregar-carrito" data-producto="Amaranto Medroxiprogesterona Inyección" data-precio="155.66">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_nomagest_inyeccion.jpg" alt="Nomagest Inyección">
+            <h4>Nomagest Inyección</h4>
+            <p>C$166.61 NIO</p>
+            <button class="agregar-carrito" data-producto="Nomagest Inyección" data-precio="166.61">Agregar a carrito</button>
+        </li>
+
+                <!-- Producto 24 -->
+                <li>
+                    <img src="imagen_nomestrol_inyeccion.jpg" alt="Nomestrol Inyección">
+                    <h4>Nomestrol Inyección</h4>
+                    <p>C$142.80 NIO</p>
+                    <button class="agregar-carrito" data-producto="Nomestrol Inyección" data-precio="142.80">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 25 -->
+                <li>
+                    <img src="imagen_progesterona_inyeccion.jpg" alt="Progesterona Inyección">
+                    <h4>Progesterona Inyección</h4>
+                    <p>C$59.31 NIO</p>
+                    <button class="agregar-carrito" data-producto="Progesterona Inyección" data-precio="59.31">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 26 -->
+                <li>
+                    <img src="imagen_cyclonor_inyeccion.jpg" alt="Cyclonor Inyección">
+                    <h4>Cyclonor Inyección</h4>
+                    <p>C$137.74 NIO</p>
+                    <button class="agregar-carrito" data-producto="Cyclonor Inyección" data-precio="137.74">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 27 -->
+                <li>
+                    <img src="imagen_ppms_ultra.jpg" alt="P.P.M.S Ultra 1 Cajita">
+                    <h4>P.P.M.S Ultra 1 Cajita</h4>
+                    <p>C$101.90 NIO</p>
+                    <button class="agregar-carrito" data-producto="P.P.M.S Ultra" data-precio="101.90">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 28 -->
+                <li>
+                    <img src="imagen_microginon_tableta.jpg" alt="Microginon Tableta">
+                    <h4>Microginon Tableta</h4>
+                    <p>C$140.40 NIO</p>
+                    <button class="agregar-carrito" data-producto="Microginon Tableta" data-precio="140.40">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 29 -->
+                <li>
+                    <img src="imagen_prueba_embarazo_lapiz_response.jpg" alt="Prueba Embarazo Lápiz Response">
+                    <h4>Prueba Embarazo Lápiz Response</h4>
+                    <p>C$53.20 NIO</p>
+                    <button class="agregar-carrito" data-producto="Prueba Embarazo Lápiz Response" data-precio="53.20">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 30 -->
+                <li>
+                    <img src="imagen_prueba_embarazo_lapiz_clara.jpg" alt="Prueba Embarazo Lápiz Clara">
+                    <h4>Prueba Embarazo Lápiz Clara</h4>
+                    <p>C$45.31 NIO</p>
+                    <button class="agregar-carrito" data-producto="Prueba Embarazo Lápiz Clara" data-precio="45.31">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 31 -->
+                <li>
+                    <img src="imagen_norgylen_tabletas_oral.jpg" alt="Norgylen Tabletas Oral">
+                    <h4>Norgylen Tabletas Oral</h4>
+                    <p>C$164.95 NIO</p>
+                    <button class="agregar-carrito" data-producto="Norgylen Tabletas Oral" data-precio="164.95">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 32 -->
+                <li>
+                    <img src="imagen_ava_28_tableta.jpg" alt="Ava 28 Tableta">
+                    <h4>Ava 28 Tableta</h4>
+                    <p>C$75.40 NIO</p>
+                    <button class="agregar-carrito" data-producto="Ava 28 Tableta" data-precio="75.40">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 33 -->
+                <li>
+                    <img src="imagen_nogestrol_1_im_anticonceptivo_mensual.jpg" alt="Nogestrol-1/ IM Anticonceptivo Mensual">
+                    <h4>Nogestrol-1/ IM Anticonceptivo Mensual</h4>
+                    <p>C$123.35 NIO</p>
+                    <button class="agregar-carrito" data-producto="Nogestrol-1/ IM Anticonceptivo Mensual" data-precio="123.35">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 34 -->
+                <li>
+                    <img src="imagen_deproxone_im_anticonceptivo_mensual.jpg" alt="Deproxone IM Anticonceptivo Mensual">
+                    <h4>Deproxone IM Anticonceptivo Mensual</h4>
+                    <p>C$132.60 NIO</p>
+                    <button class="agregar-carrito" data-producto="Deproxone IM Anticonceptivo Mensual" data-precio="132.60">Agregar a carrito</button>
+                </li>
+            </ul>
+        </section>
+        
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="categorias-lista">
+        <!-- Categoría Línea Pies -->
+        <li>
+            <a href="categoria_linea_pies.html">
+                <h3>Línea Pies</h3>
+                <p>Productos para el cuidado de los pies.</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section id="productos">
+    <h2>Productos</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_talco_pies_poranox.jpg" alt="Talco Pies Poranox 50 gr. Ramos">
+            <h4>Talco Pies Poranox 50 gr. Ramos</h4>
+            <p>C$46.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Talco Pies Poranox" data-precio="46.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_talco_pies_tph_bolsa.jpg" alt="Talco Pies TPH Bolsa">
+            <h4>Talco Pies TPH Bolsa</h4>
+            <p>C$44.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Talco Pies TPH" data-precio="44.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_crema_piel_diabeticos_400ml_avon.jpg" alt="Crema La Piel de los Diabéticos 400ml Avon">
+            <h4>Crema La Piel de los Diabéticos 400ml Avon</h4>
+            <p>C$476.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Diabéticos Avon" data-precio="476.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_goicoechea_crema_diabet_400_ml.jpg" alt="Goicoechea Crema Diabet 400 ml">
+            <h4>Goicoechea Crema Diabet 400 ml</h4>
+            <p>C$311.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Goicoechea Crema Diabet" data-precio="311.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_goicoechea_crema_elastina_colageno_400_ml.jpg" alt="Goicoechea Crema Elastina Colágeno 400 ml">
+            <h4>Goicoechea Crema Elastina Colágeno 400 ml</h4>
+            <p>C$288.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Goicoechea Crema Elastina" data-precio="288.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_goicoechea_crema_ginkgo_biloa_400_ml.jpg" alt="Goicoechea Crema Ginkgo Biloba 400 ml">
+            <h4>Goicoechea Crema Ginkgo Biloba 400 ml</h4>
+            <p>C$288.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Goicoechea Crema Ginkgo" data-precio="288.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_fungil_crema_tubo15_gr.jpg" alt="Fungil Crema Tubo 15 gr Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)">
+            <h4>Fungil Crema Tubo 15 gr Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)</h4>
+            <p>C$72.45 NIO</p>
+            <button class="agregar-carrito" data-producto="Fungil Crema Tubo" data-precio="72.45">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_fungil_unguento_pomo_30_gr.jpg" alt="Fungil Ungüento Pomo 30 gr Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)">
+            <h4>Fungil Ungüento Pomo 30 gr Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)</h4>
+            <p>C$63.25 NIO</p>
+            <button class="agregar-carrito" data-producto="Fungil Ungüento Pomo" data-precio="63.25">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_fungil_spry_60ml.jpg" alt="Fungil Spry 60ml Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)">
+            <h4>Fungil Spry 60ml Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)</h4>
+            <p>C$86.45 NIO</p>
+            <button class="agregar-carrito" data-producto="Fungil Spry" data-precio="86.45">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_fungil_talco_60_ml.jpg" alt="Fungil Talco 60 ml Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)">
+            <h4>Fungil Talco 60 ml Ceguel (Ácido Bórico, Benzoico, Salicílico, Undecilenico)</h4>
+            <p>C$78.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Fungil Talco" data-precio="78.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_fly_o_dor_talco_bolsa_100_gr.jpg" alt="Fly O Dor Talco Bolsa 100 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)">
+            <h4>Fly O Dor Talco Bolsa 100 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)</h4>
+            <p>C$44.85 NIO</p>
+            <button class="agregar-carrito" data-producto="Fly O Dor Talco Bolsa" data-precio="44.85">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_fly_o_dor_talco_fco_120_gr.jpg" alt="Fly O Dor Talco Frasco 120 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)">
+            <h4>Fly O Dor Talco Frasco 120 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)</h4>
+            <p>C$78.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Fly O Dor Talco Frasco" data-precio="78.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_fly_o_dor_talco_fco_60_gr.jpg" alt="Fly O Dor Talco Frasco 60 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)">
+            <h4>Fly O Dor Talco Frasco 60 gr Ceguel (Ácido Bórico, Salicílico, Undecilinato de Zinc)</h4>
+            <p>C$58.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Fly O Dor Talco Frasco" data-precio="58.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_spray_refrescante_coco_limon_pies_foof_works_100ml_avon.jpg" alt="Spray Refrescante Coco y Limón Pies Foof Works 100ml Avon">
+            <h4>Spray Refrescante Coco y Limón Pies Foof Works 100ml Avon</h4>
+            <p>C$211.60 NIO</p>
+            <button class="agregar-carrito" data-producto="Spray Refrescante Foof Works" data-precio="211.60">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_pedibalm_pies_piernas_cansadas_crema_620gr_scencia.jpg" alt="Pedibalm Pies y Piernas Cansadas Crema 620gr Scencia">
+            <h4>Pedibalm Pies y Piernas Cansadas Crema 620gr Scencia</h4>
+            <p>C$172.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Pedibalm Crema" data-precio="172.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_fresh_fit_lotion_spray_pies_extramenta_120ml_scencia.jpg" alt="Fresh Fit Loción Spray Pies Extra Menta 120ml Scencia">
+            <h4>Fresh Fit Loción Spray Pies Extra Menta 120ml Scencia</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Fresh Fit Loción Spray" data-precio="103.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_foot_works_crema_pies_callos_90_gr_avon.jpg" alt="Foot Works Crema Pies Callos 90 gr Avon">
+            <h4>Foot Works Crema Pies Callos 90 gr Avon</h4>
+            <p>C$243.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Foot Works Crema Callos" data-precio="243.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_crema_pies_hidratante_foof_work_90gr_avon.jpg" alt="Crema Pies Hidratante Foof Work 90gr Avon">
+            <h4>Crema Pies Hidratante Foof Work 90gr Avon</h4>
+            <p>C$238.05 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Pies Hidratante" data-precio="238.05">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_crema_mascarilla_pies_foof_work_90gr_avon.jpg" alt="Crema Mascarilla Pies Foof Work 90gr Avon">
+            <h4>Crema Mascarilla Pies Foof Work 90gr Avon</h4>
+            <p>C$238.05 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Mascarilla Pies" data-precio="238.05">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_desodorante_spray_calzado_scencia.jpg" alt="Desodorante Spray para Calzado Scencia">
+            <h4>Desodorante Spray para Calzado Scencia</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Desodorante Spray Calzado" data-precio="103.50">Agregar a carrito</button>
+            </li>
+    
+            <!-- Producto 21 -->
+            <li>
+                <img src="imagen_fresh_fit_spray_pies_clotrimazol_pie_atleta_200ml_scencia.jpg" alt="Fresh Fit Spray Pies Clotrimazol, Pie Atleta 200ml Scencia">
+                <h4>Fresh Fit Spray Pies Clotrimazol, Pie Atleta 200ml Scencia</h4>
+                <p>C$192.05 NIO</p>
+                <button class="agregar-carrito" data-producto="Fresh Fit Spray Pie Atleta" data-precio="192.05">Agregar a carrito</button>
+            </li>
+    
+            <!-- Continúa con los productos restantes siguiendo la misma estructura -->
+            
+        </ul>
+    </section>
+    
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

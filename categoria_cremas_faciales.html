@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_crema_facial_leche_cabra.jpg" alt="Crema Facial con Leche de Cabra 110ml">
+            <h4>Crema Facial con Leche de Cabra 110ml</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Facial Leche de Cabra" data-precio="103.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_crema_facial_anew_platino_dia.jpg" alt="Crema Facial Anew Platino Día 25FPS Protinol 50g">
+            <h4>Crema Facial Anew Platino Día 25FPS Protinol 50g</h4>
+            <p>C$991.30 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Facial Anew Platino Día" data-precio="991.30">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_crema_facial_anew_platino_noche.jpg" alt="Crema Facial Anew Platino Noche Protinol 50g">
+            <h4>Crema Facial Anew Platino Noche Protinol 50g</h4>
+            <p>C$991.30 NIO</p>
+            <button class="agregar-carrito" data-producto="Crema Facial Anew Platino Noche" data-precio="991.30">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_matificante_aclaradora_crema_facial.jpg" alt="Matificante Aclaradora Crema Facial 150g">
+            <h4>Matificante Aclaradora Crema Facial 150g</h4>
+            <p>C$97.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Matificante Aclaradora" data-precio="97.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_tonico_facial_3_en_1.jpg" alt="Tónico Facial 150ml Care 3 en 1">
+            <h4>Tónico Facial 150ml Care 3 en 1</h4>
+            <p>C$238.05 NIO</p>
+            <button class="agregar-carrito" data-producto="Tónico Facial 3 en 1" data-precio="238.05">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_aguacate_spf_crema_facial.jpg" alt="Aguacate y SPF Crema Facial 150g">
+            <h4>Aguacate y SPF Crema Facial 150g</h4>
+            <p>C$109.25 NIO</p>
+            <button class="agregar-carrito" data-producto="Aguacate y SPF" data-precio="109.25">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_clearskin_exfoliacion_facial_negro.jpg" alt="Clearskin Exfoliación Facial Negro">
+            <h4>Clearskin Exfoliación Facial Negro</h4>
+            <p>C$198.95 NIO</p>
+            <button class="agregar-carrito" data-producto="Clearskin Exfoliación" data-precio="198.95">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_colageno_concentrado_crema_facial_antiedad.jpg" alt="Colágeno Concentrado Crema Facial Antiedad">
+            <h4>Colágeno Concentrado Crema Facial Antiedad</h4>
+            <p>C$117.30 NIO</p>
+            <button class="agregar-carrito" data-producto="Colágeno Concentrado" data-precio="117.30">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_gel_limpiador_facial_extracto_carbon_anew.jpg" alt="Gel Limpiador Facial Extracto Carbon Anew">
+            <h4>Gel Limpiador Facial Extracto Carbon Anew</h4>
+            <p>C$207.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Gel Limpiador Facial" data-precio="207.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_mascarilla_facial_carbon_activo_derma_clear.jpg" alt="Mascarilla Facial Carbon Activo Derma Clear 90g - Elimina Puntos Negros">
+            <h4>Mascarilla Facial Carbon Activo Derma Clear 90g - Elimina Puntos Negros</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Mascarilla Facial Carbon Activo" data-precio="103.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_mascarilla_facial_con_plata_90g.jpg" alt="Mascarilla Facial con Plata 90g - Elimina Poros Abiertos, Controla Brillo">
+            <h4>Mascarilla Facial con Plata 90g - Elimina Poros Abiertos, Controla Brillo</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Mascarilla Facial con Plata" data-precio="103.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_antiarrugas_q10_dia.jpg" alt="Antiarrugas Q10 Día - Crema Facial de Día">
+            <h4>Antiarrugas Q10 Día - Crema Facial de Día</h4>
+            <p>C$559.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Antiarrugas Q10 Día" data-precio="559.00">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

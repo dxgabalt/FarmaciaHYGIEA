@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section class="productos">
+    <h2>Productos</h2>
+    <ul class="productos-lista">
+
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_bebesan_crema_topica.jpg" alt="Bebesan Crema Topica 70gr Ramos/Panalitis, Salpullido, Prurito">
+            <h4>Bebesan Crema Topica 70gr Ramos/Panalitis, Salpullido, Prurito</h4>
+            <p>C$103.50 NIO</p>
+            <button class="agregar-carrito" data-producto="Bebesan" data-precio="103.50">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_betametasona_0.1_crema_topica.jpg" alt="Betametasona 0.1% Crema Topica 20 gr Ramos/Dermatitis, Lupus Eritematoso, Liquen Plano">
+            <h4>Betametasona 0.1% Crema Topica 20 gr Ramos/Dermatitis, Lupus Eritematoso, Liquen Plano</h4>
+            <p>C$64.38 NIO</p>
+            <button class="agregar-carrito" data-producto="Betametasona" data-precio="64.38">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_clotrimazol_1_crema_topico.jpg" alt="Clotrimazol 1% Crema Topico 20 gr Ramos/Hongos Manos, Picazon, Mal Olor">
+            <h4>Clotrimazol 1% Crema Topico 20 gr Ramos/Hongos Manos, Picazon, Mal Olor</h4>
+            <p>C$40.06 NIO</p>
+            <button class="agregar-carrito" data-producto="Clotrimazol" data-precio="40.06">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_dexam_dexametasona_crema_0.2_tubo_15gr.jpg" alt="Dexam/Dexametasona Crema 0.2% Tubo 15 gr Panzyma">
+            <h4>Dexam/Dexametasona Crema 0.2% Tubo 15 gr Panzyma</h4>
+            <p>C$64.89 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexam" data-precio="64.89">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_urea_10_crema_topica.jpg" alt="Urea 10% Crema Topica 30 gr Ramos/Hidratante Piel, Psoriasis">
+            <h4>Urea 10% Crema Topica 30 gr Ramos/Hidratante Piel, Psoriasis</h4>
+            <p>C$115.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Urea" data-precio="115.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_diram_diclofenac_gel1_topico_30gr.jpg" alt="Diram/Diclofenac Gel 1% Topico 30 gr Ramos Analgesico Antiinflamatorio">
+            <h4>Diram/Diclofenac Gel 1% Topico 30 gr Ramos Analgesico Antiinflamatorio</h4>
+            <p>C$46.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Diram" data-precio="46.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_factor_p_4+e_gel_topico_tubo_30gr.jpg" alt="Factor P 4+E Gel Topico Tubo de 30 gr Panzyma/Alivio Piernas Varices, Hematomas Menores x Golpes">
+            <h4>Factor P 4+E Gel Topico Tubo de 30 gr Panzyma/Alivio Piernas Varices, Hematomas Menores x Golpes</h4>
+            <p>C$147.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Factor P 4+E" data-precio="147.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_hidroquinona_4_crema_topica_tubo_30gr.jpg" alt="Hidroquinona 4% Crema Topica Tubo 30 gr Ramos/Pecas, Hiperpigmentacion, Lentigo">
+            <h4>Hidroquinona 4% Crema Topica Tubo 30 gr Ramos/Pecas, Hiperpigmentacion, Lentigo</h4>
+            <p>C$169.05 NIO</p>
+            <button class="agregar-carrito" data-producto="Hidroquinona" data-precio="169.05">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_ketoprofeno_2.5_gel_topico_30gr.jpg" alt="Ketoprofeno 2.5% Gel Topico 30gr Ramos/Antiinflamatorio">
+            <h4>Ketoprofeno 2.5% Gel Topico 30gr Ramos/Antiinflamatorio</h4>
+            <p>C$65.55 NIO</p>
+            <button class="agregar-carrito" data-producto="Ketoprofeno" data-precio="65.55">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_ketokonazol_crema_topica_20gr.jpg" alt="Ketokonazol Crema Topica 20 gr IFC/Antibiotico Inf Funcica">
+            <h4>Ketokonazol Crema Topica 20 gr IFC/Antibiotico Inf Funcica</h4>
+            <p>C$81.35 NIO</p>
+            <button class="agregar-carrito" data-producto="Ketokonazol" data-precio="81.35">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_metronidazol_0.75_gel_topico_30gr.jpg" alt="Metronidazol 0.75% Gel Topico 30 gr Ramos/Eritema Acne">
+            <h4>Metronidazol 0.75% Gel Topico 30 gr Ramos/Eritema Acne</h4>
+            <p>C$79.12 NIO</p>
+            <button class="agregar-carrito" data-producto="Metronidazol" data-precio="79.12">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_mycozol_nf_crema_15gr.jpg" alt="Mycozol NF Crema 15 gr Uni/Antifungico, Antimicrobiana, Antiinflamatoria">
+            <h4>Mycozol NF Crema 15 gr Uni/Antifungico, Antimicrobiana, Antiinflamatoria</h4>
+            <p>C$218.93 NIO</p>
+            <button class="agregar-carrito" data-producto="Mycozol NF" data-precio="218.93">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_sulfadiazina_plata_1_crema_uso_topico.jpg" alt="Sulfadiazina de Plata 1% Crema Uso Topico Ramos/Previene Infecciones x Quemadura">
+            <h4>Sulfadiazina de Plata 1% Crema Uso Topico Ramos/Previene Infecciones x Quemadura</h4>
+            <p>C$60.63 NIO</p>
+            <button class="agregar-carrito" data-producto="Sulfadiazina de Plata" data-precio="60.63">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_mupirocina_2_unguento_topico_20gr.jpg" alt="Mupirocina 2% Unguento Topico 20 gr Ramos/Infeccion Cutaneas">
+            <h4>Mupirocina 2% Unguento Topico 20 gr Ramos/Infeccion Cutaneas</h4>
+            <p>C$160.67 NIO</p>
+            <button class="agregar-carrito" data-producto="Mupirocina" data-precio="160.67">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_triple_antibiotico_topico_20gr.jpg" alt="Triple Antibiotico Topico 20 gr IFC/Bacitracina + Polimixina + Neomicina">
+            <h4>Triple Antibiotico Topico 20 gr IFC/Bacitracina + Polimixina + Neomicina</h4>
+            <p>C$99.23 NIO</p>
+            <button class="agregar-carrito" data-producto="Triple Antibiotico" data-precio="99.23">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_panesia_lidocaina_gel_5_topico_15gr.jpg" alt="Panesia/Lidocaina Gel 5% Topico 15gr Panzyma/Anestasia Superficial Piel Mucosa Boca y Garganta.">
+            <h4>Panesia/Lidocaina Gel 5% Topico 15gr Panzyma/Anestasia Superficial Piel Mucosa Boca y Garganta.</h4>
+            <p>C$58.21 NIO</p>
+            <button class="agregar-carrito" data-producto="Panesia/Lidocaina" data-precio="58.21">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_cortilocal_clotrimazol_dexametasona_1_crema_topica.jpg" alt="Cortilocal/Clotrimazol + Dexametasona 1% Crema Topica Solka">
+            <h4>Cortilocal/Clotrimazol + Dexametasona 1% Crema Topica Solka</h4>
+            <p>C$92.34 NIO</p>
+            <button class="agregar-carrito" data-producto="Cortilocal" data-precio="92.34">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_betacort_0.05_crema_dermatologica_15gr.jpg" alt="Betacort 0.05% Crema Dermatologica 15 gr Panzyma">
+            <h4>Betacort 0.05% Crema Dermatologica 15 gr Panzyma</h4>
+            <p>C$85.59 NIO</p>
+            <button class="agregar-carrito" data-producto="Betacort" data-precio="85.59">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_gencloben_gentamicina_betametasona_clotrimazol_crema_topica.jpg" alt="Gencloben/Gentamicina + Betametasona+ Clotrimazol Crema Topica 30 gr Caplin">
+            <h4>Gencloben/Gentamicina + Betametasona+ Clotrimazol Crema Topica 30 gr Caplin</h4>
+            <p>C$115.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Gencloben" data-precio="115.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_dexketoprofeno_1.25_gel_topico_30gr.jpg" alt="Dexketoprofeno 1.25% Gel Topico 30 gr Ramos">
+            <h4>Dexketoprofeno 1.25% Gel Topico 30 gr Ramos</h4>
+            <p>C$179.56 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexketoprofeno" data-precio="179.56">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_amantin_aciclovir_5_crema_topica_10gr.jpg" alt="Amantin/Aciclovir 5% Crema Topica 10 gr Panzyma">
+            <h4>Amantin/Aciclovir 5% Crema Topica 10 gr Panzyma</h4>
+            <p>C$69.25 NIO</p>
+            <button class="agregar-carrito" data-producto="Amantin" data-precio="69.25">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_piroxicam_0.5_uso_topico_30gr.jpg" alt="Piroxicam 0.5% Uso Topico 30 gr Ramos">
+            <h4>Piroxicam 0.5% Uso Topico 30 gr Ramos</h4>
+            <p>C$74.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Piroxicam" data-precio="74.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_hidrocortisona_1_crema_topica_15gr.jpg" alt="Hidrocortisona 1% Crema Topica 15 gr Ramos/Afeccion Piel, Enrojesida, Picazon, Inflamacion">
+            <h4>Hidrocortisona 1% Crema Topica 15 gr Ramos/Afeccion Piel, Enrojesida, Picazon, Inflamacion</h4>
+            <p>C$60.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Hidrocortisona" data-precio="60.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 24 -->
+        <li>
+            <img src="imagen_lotrimz_clotrimazol_1_crema_20gr.jpg" alt="Lotrimz/Clotrimazol 1% Crema 20 gr Caplin/Antimicotico">
+            <h4>Lotrimz/Clotrimazol 1% Crema 20 gr Caplin/Antimicotico</h4>
+            <p>C$39.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Lotrimz" data-precio="39.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 25 -->
+        <li>
+            <img src="imagen_neopiel_neomicina_polimixina_bacitracina_zinc_unguento_topico.jpg" alt="Neopiel/Neomicina +Polimixina+Bacitracina Zinc Unguento Topico Marlex/Antibiotico Inf Piel">
+            <h4>Neopiel/Neomicina +Polimixina+Bacitracina Zinc Unguento Topico Marlex/Antibiotico Inf Piel</h4>
+            <p>C$109.29 NIO</p>
+            <button class="agregar-carrito" data-producto="Neopiel" data-precio="109.29">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 26 -->
+        <li>
+            <img src="imagen_bicorpan_crema_topica_15gr.jpg" alt="Bicorpan /Crema Topica 15 gr Gutis/Infeccion Piel , Dermatirtis">
+            <h4>Bicorpan /Crema Topica 15 gr Gutis/Infeccion Piel , Dermatirtis</h4>
+            <p>C$232.26 NIO</p>
+            <button class="agregar-carrito" data-producto="Bicorpan" data-precio="232.26">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 27 -->
+        <li>
+            <img src="imagen_reanoderm_betametasona_gentamicina_clotrimazol_crema_topica_15gr.jpg" alt="Reanoderm/Betametasona+ Gentamicina+ Clotrimazol Crema Topica 15 gr Reannon/Dermatosis, Inf Bacterian.">
+            <h4>Reanoderm/Betametasona+ Gentamicina+ Clotrimazol Crema Topica 15 gr Reannon/Dermatosis, Inf Bacterian.</h4>
+            <p>C$125.36 NIO</p>
+            <button class="agregar-carrito" data-producto="Reanoderm" data-precio="125.36">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 28 -->
+        <li>
+            <img src="imagen_terbix_1_terbinafina_topico_uni.jpg" alt="Terbix 1 % / Terbinafina Topico Uni/Pie Atleta, Hongos Piel, Infeccion Cuero Cabelludo">
+            <h4>Terbix 1 % / Terbinafina Topico Uni/Pie Atleta, Hongos Piel, Infeccion Cuero Cabelludo</h4>
+            <p>C$303.53 NIO</p>
+            <button class="agregar-carrito" data-producto="Terbix" data-precio="303.53">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 29 -->
+        <li>
+            <img src="imagen_face_10_acido_retinoico_0.025_crema_topica_15gr.jpg" alt="Face 10/Acido Retinoico 0.025% Crema Topica 15 gr. Uso Dermatologico Precausion">
+            <h4>Face 10/Acido Retinoico 0.025% Crema Topica 15 gr. Uso Dermatologico Precausion</h4>
+            <p>C$195.48 NIO</p>
+            <button class="agregar-carrito" data-producto="Face 10" data-precio="195.48">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 30 -->
+        <li>
+            <img src="imagen_face_10_acido_retinoico_0.05_crema_topica_15gr.jpg" alt="Face 10/Acido Retinoico 0.05% Crema Topica 15 gr. Uso Dermatologico Precausion">
+            <h4>Face 10/Acido Retinoico 0.05% Crema Topica 15 gr. Uso Dermatologico Precausion</h4>
+            <p>C$208.96 NIO</p>
+            <button class="agregar-carrito" data-producto="Face 10" data-precio="208.96">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 31 -->
+        <li>
+            <img src="imagen_bifonaderm_bifonazol_topico_winzzer.jpg" alt="Bifonaderm/Bifonazol Topico Winzzer./Antimicotico Hongo Manos y Pies">
+            <h4>Bifonaderm/Bifonazol Topico Winzzer./Antimicotico Hongo Manos y Pies</h4>
+            <p>C$273.84 NIO</p>
+            <button class="agregar-carrito" data-producto="Bifonaderm" data-precio="273.84">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 32 -->
+        <li>
+            <img src="imagen_doxiproct_plus_20gr_pharma_pomada_via_rectal_hemorroides.jpg" alt="Doxiproct Plus 20 gr Pharma/Pomada Via Rectal Hemorroides">
+            <h4>Doxiproct Plus 20 gr Pharma/Pomada Via Rectal Hemorroides</h4>
+            <p>C$282.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Doxiproct Plus" data-precio="282.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 33 -->
+        <li>
+            <img src="imagen_neobol_neomicina_crema_topica_30gr_uni.jpg" alt="Neobol/Neomicina Crema Topica 30 gr Uni">
+            <h4>Neobol/Neomicina Crema Topica 30 gr Uni</h4>
+            <p>C$226.07 NIO</p>
+            <button class="agregar-carrito" data-producto="Neobol" data-precio="226.07">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 34 -->
+        <li>
+            <img src="imagen_neobol_neomicina_spray_uni.jpg" alt="Neobol/Neomicina Spray Uni">
+            <h4>Neobol/Neomicina Spray Uni</h4>
+            <p>C$232.66 NIO</p>
+            <button class="agregar-carrito" data-producto="Neobol" data-precio="232.66">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

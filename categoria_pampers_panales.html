@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_pampers_jueguito_talla_chico.jpg" alt="Pañal Jueguito Talla Chico Bolsón x 56 Und">
+            <h4>Pañal Jueguito Talla Chico Bolsón x 56 Und</h4>
+            <p>C$389.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Jueguito Chico" data-precio="389.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_pampers_jueguito_talla_recien_nacido.jpg" alt="Pañal Jueguito Talla Recién Nacido Bolsón x 60 Und">
+            <h4>Pañal Jueguito Talla Recién Nacido Bolsón x 60 Und</h4>
+            <p>C$395.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Jueguito Recién Nacido" data-precio="395.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_pampers_jueguito_talla_m.jpg" alt="Pañal Jueguito Talla M Bolsón x 50 Unidad">
+            <h4>Pañal Jueguito Talla M Bolsón x 50 Unidad</h4>
+            <p>C$435.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Jueguito M" data-precio="435.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_pampers_jueguito_talla_g.jpg" alt="Pañal Jueguito Talla G Bolsón x 50 Und">
+            <h4>Pañal Jueguito Talla G Bolsón x 50 Und</h4>
+            <p>C$450.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Jueguito G" data-precio="450.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_pampers_huggies_active_sec_xxg_5.jpg" alt="Pañal Huggies Active Sec XXG/5 Bolsón x 30 Und">
+            <h4>Pañal Huggies Active Sec XXG/5 Bolsón x 30 Und</h4>
+            <p>C$398.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Active Sec XXG/5" data-precio="398.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_pampers_huggies_natural_care_recien_nacido.jpg" alt="Pañal Huggies Natural Care Recién Nacido">
+            <h4>Pañal Huggies Natural Care Recién Nacido</h4>
+            <p>C$395.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Natural Care Recién Nacido" data-precio="395.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_pampers_huggies_talla_m_individual.jpg" alt="Pañal Huggies Talla M Individual">
+            <h4>Pañal Huggies Talla M Individual</h4>
+            <p>C$12.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Talla M" data-precio="12.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_pampers_huggies_active_sec_recien_nacido.jpg" alt="Pañal Huggies Active Sec Recién Nacido Bolsón x 25 Und">
+            <h4>Pañal Huggies Active Sec Recién Nacido Bolsón x 25 Und</h4>
+            <p>C$336.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Active Sec Recién Nacido" data-precio="336.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_pampers_huggies_active_sec_xtra_flex_talla_xxg.jpg" alt="Pañal Huggies Active Sec Xtra Flex Talla XXG">
+            <h4>Pañal Huggies Active Sec Xtra Flex Talla XXG</h4>
+            <p>C$398.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Active Sec Xtra Flex XXG" data-precio="398.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_pampers_huggies_clasic_talla_g.jpg" alt="Pañal Huggies Clasic Talla G Bolsón x 50 Und">
+            <h4>Pañal Huggies Clasic Talla G Bolsón x 50 Und</h4>
+            <p>C$450.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Clasic Talla G" data-precio="450.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_pampers_huggies_clasic_talla_m.jpg" alt="Pañal Huggies Clasic Talla M Bolsón x 50 Und">
+            <h4>Pañal Huggies Clasic Talla M Bolsón x 50 Und</h4>
+            <p>C$435.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Huggies Clasic Talla M" data-precio="435.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_pampers_kimbies_huggies_talla_g.jpg" alt="Pañal Kimbies Huggies Talla G">
+            <h4>Pañal Kimbies Huggies Talla G</h4>
+            <p>C$286.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Kimbies Huggies Talla G" data-precio="286.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_pampers_kimbies_huggies_talla_xg.jpg" alt="Pañal Kimbies Huggies Talla XG Bolsón x 38 Und">
+            <h4>Pañal Kimbies Huggies Talla XG Bolsón x 38 Und</h4>
+            <p>C$279.45 NIO</p>
+            <button class="agregar-carrito" data-producto="Pañal Kimbies Huggies Talla XG" data-precio="279.45">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_toalla_humeda_4_en_1_fressc_ftop_huggies.jpg" alt="Toalla Húmeda 4 en 1 Fressc Ftop Huggies">
+            <h4>Toalla Húmeda 4 en 1 Fressc Ftop Huggies</h4>
+            <p>C$196.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Húmeda Fressc Ftop" data-precio="196.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_toalla_humeda_huggies_max_clean_x_80.jpg" alt="Toalla Húmeda Huggies Max Clean x 80">
+            <h4>Toalla Húmeda Huggies Max Clean x 80</h4>
+            <p>C$97.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Húmeda Huggies Max Clean" data-precio="97.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_toalla_humeda_family_choice.jpg" alt="Toalla Húmeda Family Choice">
+            <h4>Toalla Húmeda Family Choice</h4>
+            <p>C$75.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Húmeda Family Choice" data-precio="75.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_pampers_adulto_plenitud_morado_talla_g_xg.jpg" alt="Pamper Adulto Plenitud Morado Talla G/XG Bolsón x 8 Und">
+            <h4>Pamper Adulto Plenitud Morado Talla G/XG Bolsón x 8 Und</h4>
+            <p>C$389.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Plenitud Morado G/XG" data-precio="389.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_pampers_adulto_plenitud_talla_morado.jpg" alt="Pamper Adulto Plenitud Talla M Morado Bolsón x 8 Und">
+            <h4>Pamper Adulto Plenitud Talla M Morado Bolsón x 8 Und</h4>
+            <p>C$389.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Plenitud Talla M Morado" data-precio="389.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_pampers_adulto_plenitud_talla_m_verde.jpg" alt="Pamper Adulto Plenitud Talla M Verde Bolsón x 8 Unid">
+            <h4>Pamper Adulto Plenitud Talla M Verde Bolsón x 8 Unid</h4>
+            <p>C$255.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Plenitud Talla M Verde" data-precio="255.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_pampers_adulto_plenitud_talla_g_verde.jpg" alt="Pamper Adulto Plenitud Talla G Verde Bolsón x 8 Unidad">
+            <h4>Pamper Adulto Plenitud Talla G Verde Bolsón x 8 Unidad</h4>
+            <p>Consultar disponibilidad</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Plenitud Talla G Verde" data-precio="Consultar">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_pampers_adulto_calzon_tena_talla_m.jpg" alt="Pamper Adulto Calzón Tena Talla M Bolsón x 10 Und">
+            <h4>Pamper Adulto Calzón Tena Talla M Bolsón x 10 Und</h4>
+            <p>Consultar disponibilidad</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Calzón Tena Talla M" data-precio="Consultar">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_pampers_adulto_affective_talla_g.jpg" alt="Pamper Adulto Affective Talla G Bolsón 10 Und">
+            <h4>Pamper Adulto Affective Talla G Bolsón 10 Und</h4>
+            <p>Consultar disponibilidad</p>
+            <button class="agregar-carrito" data-producto="Pamper Adulto Affective Talla G" data-precio="Consultar">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

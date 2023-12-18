@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="categorias-lista">
+        <li>
+            <h3>Antigripales</h3>
+            <p>Productos para el alivio de gripes y resfriados.</p>
+        </li>
+    </ul>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_elilex_benzocaina_mentol.jpg" alt="Elilex Benzocaína + Mentol Fresa Blister x 8 Tableta Chupar">
+            <h4>Elilex Benzocaína + Mentol Fresa Blister x 8 Tableta Chupar</h4>
+            <p>C$76.44 NIO</p>
+            <button class="agregar-carrito" data-producto="Elilex" data-precio="76.44">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_virogrip_gel_caps_am.jpg" alt="Virogrip Gel Caps AM 1 Sobre x 2 Caps">
+            <h4>Virogrip Gel Caps AM 1 Sobre x 2 Caps</h4>
+        <p>C$21.25 NIO</p>
+        <button class="agregar-carrito" data-producto="Virogrip Gel Caps AM" data-precio="21.25">Agregar a carrito</button>
+        </li>
+
+            <!-- Producto 3 -->
+    <li>
+        <img src="imagen_virogrip_gel_caps_pm.jpg" alt="Virogrip Gel Caps PM 1 Sobre x 2 Caps">
+        <h4>Virogrip Gel Caps PM 1 Sobre x 2 Caps</h4>
+        <p>C$21.42 NIO</p>
+        <button class="agregar-carrito" data-producto="Virogrip Gel Caps PM" data-precio="21.42">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 4 -->
+    <li>
+        <img src="imagen_virogrip_te_sobre_am.jpg" alt="Virogrip Te Sobre AM Unidad">
+        <h4>Virogrip Te Sobre AM Unidad</h4>
+        <p>C$20.61 NIO</p>
+        <button class="agregar-carrito" data-producto="Virogrip Te Sobre AM" data-precio="20.61">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 5 -->
+    <li>
+        <img src="imagen_virogrip_te_sobre_pm.jpg" alt="Virogrip Te Sobre PM Unidad">
+        <h4>Virogrip Te Sobre PM Unidad</h4>
+        <p>C$19.97 NIO</p>
+        <button class="agregar-carrito" data-producto="Virogrip Te Sobre PM" data-precio="19.97">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 6 -->
+    <li>
+        <img src="imagen_actimicina_bronquial.jpg" alt="Actimicina Bronquial Blister x 4 Tab">
+        <h4>Actimicina Bronquial Blister x 4 Tab</h4>
+        <p>C$12.00 NIO</p>
+        <button class="agregar-carrito" data-producto="Actimicina Bronquial" data-precio="12.00">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 7 -->
+    <li>
+        <img src="imagen_actimicina_gripe_tos.jpg" alt="Actimicina Gripe y Tos Blister x 4 Tab">
+        <h4>Actimicina Gripe y Tos Blister x 4 Tab</h4>
+        <p>C$16.00 NIO</p>
+        <button class="agregar-carrito" data-producto="Actimicina Gripe y Tos" data-precio="16.00">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 8 -->
+    <li>
+        <img src="imagen_flufin_noche_gel_caps.jpg" alt="Flufin Noche Gel Caps 1 Sobre x 2 Caps">
+        <h4>Flufin Noche Gel Caps 1 Sobre x 2 Caps</h4>
+        <p>C$14.79 NIO</p>
+        <button class="agregar-carrito" data-producto="Flufin Noche Gel Caps" data-precio="14.79">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 9 -->
+    <li>
+        <img src="imagen_flufin_tableta_antigripal.jpg" alt="Flufin Tableta Antigripal Blister x 4 Tab">
+        <h4>Flufin Tableta Antigripal Blister x 4 Tab</h4>
+        <p>C$20.00 NIO</p>
+        <button class="agregar-carrito" data-producto="Flufin Tableta Antigripal" data-precio="20.00">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 10 -->
+    <li>
+        <img src="imagen_tabcin_esferbecente_adulto.jpg" alt="Tabcin Esferbecente Adulto Blister x 2 Tab">
+        <h4>Tabcin Esferbecente Adulto Blister x 2 Tab</h4>
+        <p>C$12.00 NIO</p>
+        <button class="agregar-carrito" data-producto="Tabcin Esferbecente Adulto" data-precio="12.00">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 11 -->
+    <li>
+        <img src="imagen_tabcin_esferbecente_niño.jpg" alt="Tabcin Esferbecente Niño Blister x 2 Tab">
+        <h4>Tabcin Esferbecente Niño Blister x 2 Tab</h4>
+        <p>C$10.00 NIO</p>
+        <button class="agregar-carrito" data-producto="Tabcin Esferbecente Niño" data-precio="10.00">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 12 -->
+    <li>
+        <img src="imagen_tabcin_extrafuerte_dia_gel_roja.jpg" alt="Tabcin Extrafuerte Día Gel Roja Dosis x 2 Caps Naranja">
+        <h4>Tabcin Extrafuerte Día Gel Roja Dosis x 2 Caps Naranja</h4>
+        <p>C$21.45 NIO</p>
+        <button class="agregar-carrito" data-producto="Tabcin Extrafuerte Día Gel Roja" data-precio="21.45">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 13 -->
+    <li>
+        <img src="imagen_tabcin_extra_fuerte_gripe_tos_gel.jpg" alt="Tabcin Extra Fuerte Gripe y Tos Gel Blister x 2 Caps Morada">
+        <h4>Tabcin Extra Fuerte Gripe y Tos Gel Blister x 2 Caps Morada</h4>
+        <p>C$22.33 NIO</p>
+        <button class="agregar-carrito" data-producto="Tabcin Extra Fuerte Gripe y Tos Gel" data-precio="22.33">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 14 -->
+    <li>
+        <img src="imagen_lemovit_antigripal.jpg" alt="Lemovit Antigripal Caja x 4 Tab">
+        <h4>Lemovit Antigripal Caja x 4 Tab</h4>
+        <p>C$65.55 NIO</p>
+        <button class="agregar-carrito" data-producto="Lemovit Antigripal" data-precio="65.55">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 15 -->
+    <li>
+        <img src="imagen_irs_antigripal.jpg" alt="IRS Antigripal Blister x 4 Tabletas">
+        <h4>IRS Antigripal Blister x 4 Tabletas</h4>
+        <p>C$34.23 NIO</p>
+        <button class="agregar-carrito" data-producto="IRS Antigripal" data-precio="34.23">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 16 -->
+    <li>
+        <img src="imagen_dolofin_antigripal_adulto.jpg" alt="Dolofin Antigripal Adulto 1 Sobre x 2 Caps">
+        <h4>Dolofin Antigripal Adulto 1 Sobre x 2 Caps</h4>
+        <p>C$12.22 NIO</p>
+        <button class="agregar-carrito" data-producto="Dolofin Antigripal Adulto" data-precio="12.22">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 17 -->
+    <li>
+        <img src="imagen_dolofin_niños_fiebre_resfriado.jpg" alt="Dolofin Niños Fiebre y Resfriado Blister x 4 Tab">
+        <h4>Dolofin Niños Fiebre y Resfriado Blister x 4 Tab</h4>
+        <p>C$11.52 NIO</p>
+        <button class="agregar-carrito" data-producto="Dolofin Niños Fiebre y Resfriado" data-precio="11.52">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 18 -->
+    <li>
+        <img src="imagen_muxalex_600mg.jpg" alt="Muxalex 600 mg Sobre para Diluir Oral Mucosidad, Bronquitis Unidad">
+        <h4>Muxalex 600 mg Sobre para Diluir Oral Mucosidad, Bronquitis Unidad</h4>
+        <p>C$37.60 NIO</p>
+        <button class="agregar-carrito" data-producto="Muxalex 600mg" data-precio="37.60">Agregar a carrito</button>
+    </li>
+
+    <!-- Producto 19 -->
+    <li>
+        <img src="imagen_pulmo_grip_antigripal.jpg" alt="Pulmo Grip, Antigripal 1 Sobre x 2 Caps">
+        <h4>Pulmo Grip, Antigripal 1 Sobre x 2 Caps</h4>
+        <p>C$23.57 NIO</p>
+        <button class="agregar-carrito" data-producto="Pulmo Grip" data-precio="23.57">Agregar a carrito</button>
+    </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_oleoferina_antigripal.jpg" alt="Oleoferina Antigripal Blister x 10 Tab">
+                <h4>Oleoferina Antigripal Blister x 10 Tab</h4>
+            <p>C$41.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Oleoferina Antigripal" data-precio="41.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_menaxol_forte_600mg.jpg" alt="Menaxol Forte 600 mg Sobre Polvo para Diluir Oral Exceso Mucosidad Unidad">
+            <h4>Menaxol Forte 600 mg Sobre Polvo para Diluir Oral Exceso Mucosidad Unidad</h4>
+            <p>C$49.59 NIO</p>
+            <button class="agregar-carrito" data-producto="Menaxol Forte 600mg" data-precio="49.59">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_difenhidramina_dormilong_50mg.jpg" alt="Difenhidramina Dormilong 50 mg Blister x 4 Tab">
+            <h4>Difenhidramina Dormilong 50 mg Blister x 4 Tab</h4>
+            <p>C$14.64 NIO</p>
+            <button class="agregar-carrito" data-producto="Difenhidramina Dormilong 50mg" data-precio="14.64">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_pasinerva_relajante.jpg" alt="Pasinerva Relajante Ayuda Dormir Blister x 5 Cápsula Natural">
+            <h4>Pasinerva Relajante Ayuda Dormir Blister x 5 Cápsula Natural</h4>
+            <p>C$46.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Pasinerva Relajante" data-precio="46.65">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 24 -->
+        <li>
+            <img src="imagen_super_tiamina.jpg" alt="Super Tiamina Blister x 2 Tab">
+            <h4>Super Tiamina Blister x 2 Tab</h4>
+            <p>C$5.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Super Tiamina" data-precio="5.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Puedes seguir agregando más productos siguiendo la misma estructura -->
+    </ul>
+</section>
+
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Enzimas Digestivas</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_esomeprazol_tab_40mg.jpg" alt="Esomeprazol Tab 40 mg Unidad. Caplin">
+            <h4>Esomeprazol Tab 40 mg Unidad. Caplin</h4>
+            <p>C$6.33 NIO</p>
+            <button class="agregar-carrito" data-producto="Esomeprazol 40mg" data-precio="6.33">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_omeprazol_tab_20mg.jpg" alt="Omeprazol Tab. 20 mg Unidad Ramos">
+            <h4>Omeprazol Tab. 20 mg Unidad Ramos</h4>
+            <p>C$3.45 NIO</p>
+            <button class="agregar-carrito" data-producto="Omeprazol 20mg" data-precio="3.45">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_omeprazol_tab_40mg.jpg" alt="Omeprazol Tab 40 mg Unidad Ramos">
+            <h4>Omeprazol Tab 40 mg Unidad Ramos</h4>
+            <p>C$5.04 NIO</p>
+            <button class="agregar-carrito" data-producto="Omeprazol 40mg" data-precio="5.04">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_omeprazol_tab_20mg_caplin.jpg" alt="Omeprazol Tab. 20 mg Unidad Caplin">
+            <h4>Omeprazol Tab. 20 mg Unidad Caplin</h4>
+            <p>C$1.73 NIO</p>
+            <button class="agregar-carrito" data-producto="Omeprazol 20mg Caplin" data-precio="1.73">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_omezil_omeprazol_20mg_capsula.jpg" alt="Omezil / Omeprazol 20 mg Cápsula. Unidad Reannon">
+            <h4>Omezil / Omeprazol 20 mg Cápsula. Unidad Reannon</h4>
+            <p>C$7.47 NIO</p>
+            <button class="agregar-carrito" data-producto="Omezil / Omeprazol" data-precio="7.47">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_esomepprazol_tab_40mg.jpg" alt="Esomepprazol Tab 40 mg Unidad. Calox">
+            <h4>Esomepprazol Tab 40 mg Unidad. Calox</h4>
+            <p>C$16.72 NIO</p>
+            <button class="agregar-carrito" data-producto="Esomepprazol 40mg" data-precio="16.72">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_alka_gastric_tableta_unidad_bayer.jpg" alt="Alka Gastric Tableta Unidad. Bayer">
+            <h4>Alka Gastric Tableta Unidad. Bayer</h4>
+            <p>C$7.39 NIO</p>
+            <button class="agregar-carrito" data-producto="Alka Gastric" data-precio="7.39">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_alka_seltzer_sobre_unidad_bayer.jpg" alt="Alka Seltzer Sobre Unidad Bayer">
+            <h4>Alka Seltzer Sobre Unidad Bayer</h4>
+            <p>C$9.09 NIO</p>
+            <button class="agregar-carrito" data-producto="Alka Seltzer" data-precio="9.09">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_alumin_150_150_tab_masticable_unidad_solka.jpg" alt="Alumin 150+150 Tab. Masticable Unidad Solka">
+            <h4>Alumin 150+150 Tab. Masticable Unidad Solka</h4>
+            <p>C$2.76 NIO</p>
+            <button class="agregar-carrito" data-producto="Alumin 150+150" data-precio="2.76">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_bioprin_80_400mg_tab_unidad_solka.jpg" alt="Bioprin 80+400mg Tab. Unidad Solka">
+            <h4>Bioprin 80+400mg Tab. Unidad Solka</h4>
+            <p>C$3.69 NIO</p>
+            <button class="agregar-carrito" data-producto="Bioprin 80+400mg" data-precio="3.69">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_enzitrol_tab_unidad_medipro.jpg" alt="Enzitrol Tab. Unidad Medipro">
+            <h4>Enzitrol Tab. Unidad Medipro</h4>
+            <p>C$8.20 NIO</p>
+            <button class="agregar-carrito" data-producto="Enzitrol" data-precio="8.20">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_colipax_antiespasmo_tabl_unidad_nf.jpg" alt="Colipax Antiespasmo Tabl. Unidad NF">
+            <h4>Colipax Antiespasmo Tabl. Unidad NF</h4>
+            <p>C$12.60 NIO</p>
+            <button class="agregar-carrito" data-producto="Colipax Antiespasmo" data-precio="12.60">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_nor_colic_2_5mg_tab_colon_irritable_colitis_unidad_teramed.jpg" alt="Nor-Colic 2.5 mg. Colon Irritable, Colitis, Espasmos Uretral Tab. Unidad Teramed">
+            <h4>Nor-Colic 2.5 mg. Colon Irritable, Colitis, Espasmos Uretral Tab. Unidad Teramed</h4>
+            <p>C$5.18 NIO</p>
+            <button class="agregar-carrito" data-producto="Nor-Colic 2.5mg" data-precio="5.18">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_carminol_antiacido_antiflatulento_tab_masticable_menta_unidad_ramos.jpg" alt="Carminol Antiácido, Antiflatulento Tab. Masticable Menta. Unidad Ramos">
+            <h4>Carminol Antiácido, Antiflatulento Tab. Masticable Menta. Unidad Ramos</h4>
+            <p>C$2.99 NIO</p>
+            <button class="agregar-carrito" data-producto="Carminol" data-precio="2.99">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_sucrassyl_1_gr_protege_mucosa_gastrica_polvo_diluir_sobre_unidad_paill.jpg" alt="Sucrassyl 1 gr. Protege Mucosa Gástrica Polvo Diluir Sobre Unidad Paill">
+            <h4>Sucrassyl 1 gr. Protege Mucosa Gástrica Polvo Diluir Sobre Unidad Paill</h4>
+            <p>C$7.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Sucrassyl" data-precio="7.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_meneparol_comprimidos_afeccion_hepatica_cirrotica_unidad_menarini.jpg" alt="Meneparol Comprimidos Afección Hepática y Cirrótica Unidad Menarini">
+            <h4>Meneparol Comprimidos Afección Hepática y Cirrótica Unidad Menarini</h4>
+            <p>C$13.64 NIO</p>
+            <button class="agregar-carrito" data-producto="Meneparol Comprimidos" data-precio="13.64">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_meneparol_bebible_afeccion_hepatica_cirrotica_bebible_unidad_menarini.jpg" alt="Meneparol Bebible Afección Hepática y Cirrótica Bebible Unidad Menarini">
+            <h4>Meneparol Bebible Afección Hepática y Cirrótica Bebible Unidad Menarini</h4>
+            <p>C$0.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Meneparol Bebible" data-precio="0.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_bromuro_otilonio_espasmo_digestivo_colon_ureta_tab_40mg_unidad_calox.jpg" alt="Bromuro Otilonio Espasmo Digestivo, Colon, Uretra Tab 40 mg. Unidad Calox">
+            <h4>Bromuro Otilonio Espasmo Digestivo, Colon, Uretra Tab 40 mg. Unidad Calox</h4>
+            <p>C$15.57 NIO</p>
+            <button class="agregar-carrito" data-producto="Bromuro Otilonio" data-precio="15.57">Agregar a carrito</button>
+        </li>
+
+                <!-- Producto 19 -->
+                <li>
+                    <img src="imagen_espasmo_digestomen_exceso_gases_mala_digestion_ins_pancrea_tableta_unidad_menarini.jpg" alt="Espasmo Digestomen Exceso Gases, Mala Digestión, Insuficiencia Pancreática Tableta Unidad Menarini">
+                    <h4>Espasmo Digestomen Exceso Gases, Mala Digestión, Insuficiencia Pancreática Tableta Unidad Menarini</h4>
+                    <p>C$13.20 NIO</p>
+                    <button class="agregar-carrito" data-producto="Espasmo Digestomen" data-precio="13.20">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 20 -->
+                <li>
+                    <img src="imagen_carbonal_tab_espasmos_dig_gases_retortijones_unidad_ramos.jpg" alt="Carbonal Tab. Espasmos Digestivos, Gases, Retortijones Unidad Ramos">
+                    <h4>Carbonal Tab. Espasmos Digestivos, Gases, Retortijones Unidad Ramos</h4>
+                    <p>C$2.60 NIO</p>
+                    <button class="agregar-carrito" data-producto="Carbonal" data-precio="2.60">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 21 -->
+                <li>
+                    <img src="imagen_peptobismol_tableta_acides_indigestion_nauseas_diarrea_unidad.jpg" alt="Peptobismol Tableta Acidez, Indigestión, Náuseas, Diarrea Unidad">
+                    <h4>Peptobismol Tableta Acidez, Indigestión, Náuseas, Diarrea Unidad</h4>
+                    <p>C$0.00 NIO</p>
+                    <button class="agregar-carrito" data-producto="Peptobismol" data-precio="0.00">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 22 -->
+                <li>
+                    <img src="imagen_pepto_bismol_fco_118ml_acides_indigestion_nausea_diarrea_unidad.jpg" alt="Pepto Bismol Frasco 118 ml Acidez, Indigestión, Náusea, Diarrea Unidad">
+                    <h4>Pepto Bismol Frasco 118 ml Acidez, Indigestión, Náusea, Diarrea Unidad</h4>
+                    <p>C$132.48 NIO</p>
+                    <button class="agregar-carrito" data-producto="Pepto Bismol Fco 118ml" data-precio="132.48">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 23 -->
+                <li>
+                    <img src="imagen_emulagar_laxante_tabl_unidad_ramos.jpg" alt="Emulagar Laxante Tableta Unidad Ramos">
+                    <h4>Emulagar Laxante Tableta Unidad Ramos</h4>
+                    <p>C$2.92 NIO</p>
+                    <button class="agregar-carrito" data-producto="Emulagar Laxante" data-precio="2.92">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 24 -->
+                <li>
+                    <img src="imagen_leche_magnesia_laxante_fco_120ml_unidad_ceguel.jpg" alt="Leche de Magnesia Laxante Frasco 120 ml Unidad Ceguel">
+                    <h4>Leche de Magnesia Laxante Frasco 120 ml Unidad Ceguel</h4>
+                    <p>C$87.40 NIO</p>
+                    <button class="agregar-carrito" data-producto="Leche de Magnesia" data-precio="87.40">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 25 -->
+                <li>
+                    <img src="imagen_leche_magnesia_laxante_fco_60ml_unidad_ceguel.jpg" alt="Leche de Magnesia Laxante Frasco 60 ml Unidad Ceguel">
+                    <h4>Leche de Magnesia Laxante Frasco 60 ml Unidad Ceguel</h4>
+                    <p>C$51.75 NIO</p>
+                    <button class="agregar-carrito" data-producto="Leche de Magnesia" data-precio="51.75">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 26 -->
+                <li>
+                    <img src="imagen_segurola_estrenimiento_tab_5mg_unidad.jpg" alt="Segurola Estreñimiento Tab 5 mg Unidad">
+                    <h4>Segurola Estreñimiento Tab 5 mg Unidad</h4>
+                    <p>C$1.96 NIO</p>
+                    <button class="agregar-carrito" data-producto="Segurola Estreñimiento" data-precio="1.96">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 27 -->
+                <li>
+                    <img src="imagen_aceite_mineral_800mg_estrenimiento_fco_60ml_unidad_discarsa.jpg" alt="Aceite Mineral 800mg Estreñimiento Frasco 60 ml Unidad Discarsa">
+                    <h4>Aceite Mineral 800mg Estreñimiento Frasco 60 ml Unidad Discarsa</h4>
+                    <p>C$52.70 NIO</p>
+                    <button class="agregar-carrito" data-producto="Aceite Mineral 800mg" data-precio="52.70">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 28 -->
+                <li>
+                    <img src="imagen_enteroguanil_adulto_diarrea_tab_unidad_ancalmo.jpg" alt="Enteroguanil Adulto Diarrea Tab Unidad Ancalmo">
+                    <h4>Enteroguanil Adulto Diarrea Tab Unidad Ancalmo</h4>
+                    <p>C$6.00 NIO</p>
+                    <button class="agregar-carrito" data-producto="Enteroguanil Adulto" data-precio="6.00">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 29 -->
+                <li>
+                    <img src="imagen_enteroguanil_nino_diarrea_tab_unidad_ancalmo.jpg" alt="Enteroguanil Niño Diarrea Tab Unidad Ancalmo">
+                    <h4>Enteroguanil Niño Diarrea Tab Unidad Ancalmo</h4>
+                    <p>C$4.00 NIO</p>
+                    <button class="agregar-carrito" data-producto="Enteroguanil Niño" data-precio="4.00">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 30 -->
+                <li>
+                    <img src="imagen_florenterol_capsulas_200mg_diareea_restaura_flora_intestinal_unidad_infasa.jpg" alt="Florenterol Cápsulas 200 mg, Diarrea, Restaura Flora Intestinal Unidad Infasa">
+                    <h4>Florenterol Cápsulas 200 mg, Diarrea, Restaura Flora Intestinal Unidad Infasa</h4>
+                    <p>C$38.84 NIO</p>
+                    <button class="agregar-carrito" data-producto="Florenterol Cápsulas" data-precio="38.84">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 31 -->
+                <li>
+                    <img src="imagen_florenterol_sobre_polvo_diareea_restaura_flora_intestinal_unidad_infasa.jpg" alt="Florenterol Sobre Polvo, Diarrea, Restaura Flora Intestinal Unidad Infasa">
+                    <h4>Florenterol Sobre Polvo, Diarrea, Restaura Flora Intestinal Unidad Infasa</h4>
+                    <p>C$24.97 NIO</p>
+                    <button class="agregar-carrito" data-producto="Florenterol Sobre Polvo" data-precio="24.97">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 32 -->
+                <li>
+                    <img src="imagen_ilomida_loperamida_diarrea_tabl_unidad.jpg" alt="Ilomida / Loperamida Diarrea Tableta Unidad">
+                    <h4>Ilomida / Loperamida Diarrea Tableta Unidad</h4>
+                    <p>C$6.90 NIO</p>
+                    <button class="agregar-carrito" data-producto="Ilomida / Loperamida" data-precio="6.90">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 33 -->
+                <li>
+                    <img src="imagen_tapon_loperamida_diarrea_sobre_unida.jpg" alt="Tapón / Loperamida Diarrea Sobre Unidad">
+                    <h4>Tapón / Loperamida Diarrea Sobre Unidad</h4>
+                    <p>C$19.24 NIO</p>
+                    <button class="agregar-carrito" data-producto="Tapón / Loperamida" data-precio="19.24">Agregar a carrito</button>
+                </li>
+        
+                <!-- Producto 34 -->
+                <li>
+                    <img src="imagen_alka_ad_diarrea_tableta_unidad.jpg" alt="Alka AD Diarrea Tableta Unidad">
+                    <h4>Alka AD Diarrea Tableta Unidad</h4>
+                    <p>C$9.64 NIO</p>
+                    <button class="agregar-carrito" data-producto="Alka AD" data-precio="9.64">Agregar a carrito</button>
+                </li>
+            </ul>
+        </section>
+        
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

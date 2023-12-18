@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background-image: url('tematica.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; /* Agrega una fuente de texto genérica si lo necesitas */
+  }
+  
+  .card {
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .card-header {
+    background-color: #56a0d3; /* Azul claro para representar el cielo */
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .btn-primary {
+    background-color: #56a0d3;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a769d; /* Azul más oscuro */
+  }
+  
+  #calendar {
+    width: 100%;
+  }
+  
+  table {
+    margin: 0;
+    border-radius: 15px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead th {
+    background-color: #343a40; /* Gris oscuro para un contraste */
+    color: #fff;
+    border-color: #454d55;
+  }
+  
+  tbody td {
+    background-color: #fff;
+    border-color: #ddd;
+  }
+  
+  tbody td:hover {
+    background-color: #f0f8ff; /* Azul claro al pasar el ratón */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Estilos para las estaciones del año */
+  .spring {
+    background-color: #b2d4b2; /* Verde claro para primavera */
+  }
+  
+  .summer {
+    background-color: #ffd966; /* Amarillo para verano */
+  }
+  
+  .autumn {
+    background-color: #ffa07a; /* Tono salmon para otoño */
+  }
+  
+  .winter {
+    background-color: #d6ecf2; /* Azul claro para invierno */
+  }
+  

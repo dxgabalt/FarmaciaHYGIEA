@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Encabezado */
+/* Estilos adicionales para el encabezado */
 header {
     background-color: #0daa41;
     color: #fff;
@@ -15,24 +15,49 @@ header {
     padding: 10px 0;
 }
 
+header .logo img {
+    max-width: 140px;
+    border-radius: 70px;
+    border: 2px solid #fff; /* Borde blanco alrededor del logo */
+}
+
 header h1 {
     font-size: 36px;
-    margin: 0;
+    margin: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
-nav ul li {
-    display: inline;
+nav li {
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+nav a {
     text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+nav a i {
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+/* Estilo cuando se pasa el ratón sobre el enlace */
+nav a:hover {
+    color: #ffd700; /* Color amarillo al pasar el ratón */
 }
 
 /* Secciones */
@@ -67,13 +92,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 30px; /* Espacio adicional arriba de la lista */
 }
 
 .categorias-lista li {
     width: 30%;
     margin-bottom: 20px;
     text-align: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Evita que las esquinas redondeadas afecten el contenido */
     transition: transform 0.2s ease-in-out;
 }
 
@@ -90,11 +118,14 @@ footer {
 .categorias-lista img {
     max-width: 100%;
     height: auto;
+    border-bottom: 2px solid #0daa41; /* Línea verde en la parte inferior */
+    border-radius: 10px 10px 0 0; /* Esquinas redondeadas solo en la parte superior */
 }
 
 .categorias-lista h3 {
     font-size: 18px;
     margin: 10px 0;
+    color: #0daa41;
 }
 
 .categorias-lista p {
@@ -105,7 +136,7 @@ footer {
 
 /* Estilos adicionales, como fondo y espaciado */
 #catalogo {
-    background-color: #fff;
+    background-color: #f4f4f4;
     padding: 40px 0;
     text-align: center;
 }
@@ -298,4 +329,42 @@ footer {
 
 #pedidos button[type="submit"]:hover {
     background-color: #0c9438;
+}
+
+
+
+
+
+/* Estilos del scrollbar en webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0daa41; /* Color del thumb (barra de desplazamiento) */
+    border-radius: 10px; /* Esquinas redondeadas del thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Color del track (fondo del scrollbar) */
+}
+
+/* Estilos del scrollbar en Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0daa41 #f4f4f4; /* Color del thumb y del track */
+}
+
+/* Estilos del scrollbar en Microsoft Edge e Internet Explorer */
+*::-ms-scrollbar {
+    width: 12px;
+}
+
+*::-ms-scrollbar-thumb {
+    background-color: #0daa41; /* Color del thumb (barra de desplazamiento) */
+    border-radius: 10px; /* Esquinas redondeadas del thumb */
+}
+
+*::-ms-scrollbar-track {
+    background-color: #f4f4f4; /* Color del track (fondo del scrollbar) */
 }

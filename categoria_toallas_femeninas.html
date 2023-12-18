@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_protector_kotex_clasico_rosado.jpg" alt="Protector Kotex Clasico Rosado">
+            <h4>Protector Kotex Clasico Rosado</h4>
+            <p>C$39.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Protector Kotex Clasico Rosado" data-precio="39.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_protector_kotex_manzanilla_verde.jpg" alt="Protector Kotex Manzanilla Verde">
+            <h4>Protector Kotex Manzanilla Verde</h4>
+            <p>C$39.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Protector Kotex Manzanilla Verde" data-precio="39.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_tampones_kotex_sport_medio.jpg" alt="Tampones Kotex Sport Medio">
+            <h4>Tampones Kotex Sport Medio</h4>
+            <p>C$152.95 NIO</p>
+            <button class="agregar-carrito" data-producto="Tampones Kotex Sport Medio" data-precio="152.95">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_tampones_kotex_sport_super.jpg" alt="Tampones Kotex Sport Super">
+            <h4>Tampones Kotex Sport Super</h4>
+            <p>C$144.90 NIO</p>
+            <button class="agregar-carrito" data-producto="Tampones Kotex Sport Super" data-precio="144.90">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_toalla_kotex_con_alas_manzanilla.jpg" alt="Toalla Kotex con Alas Manzanilla">
+            <h4>Toalla Kotex con Alas Manzanilla</h4>
+            <p>C$43.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Kotex con Alas Manzanilla" data-precio="43.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_toalla_kotex_nocturna_con_alas.jpg" alt="Toalla Kotex Nocturna con Alas">
+            <h4>Toalla Kotex Nocturna con Alas</h4>
+            <p>C$65.55 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Kotex Nocturna con Alas" data-precio="65.55">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_toalla_kotex_nocturna_sin_alas.jpg" alt="Toalla Kotex Nocturna Sin Alas">
+            <h4>Toalla Kotex Nocturna Sin Alas</h4>
+            <p>C$65.55 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Kotex Nocturna Sin Alas" data-precio="65.55">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_toalla_kotex_sin_alas_manzanilla.jpg" alt="Toalla Kotex Sin Alas Manzanilla">
+            <h4>Toalla Kotex Sin Alas Manzanilla</h4>
+            <p>C$43.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Kotex Sin Alas Manzanilla" data-precio="43.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_toalla_amigas_con_alas.jpg" alt="Toalla Amigas Con Alas">
+            <h4>Toalla Amigas Con Alas</h4>
+            <p>C$28.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Amigas Con Alas" data-precio="28.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_toalla_amigas_sin_alas.jpg" alt="Toalla Amigas Sin Alas">
+            <h4>Toalla Amigas Sin Alas</h4>
+            <p>C$28.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Toalla Amigas Sin Alas" data-precio="28.00">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+
+
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

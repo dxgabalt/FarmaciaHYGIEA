@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="categorias-lista">
+        <!-- Categoría: Material de Reposición -->
+        <li>
+            <a href="categoria_material_reposicion.html">
+                <h3>Material de Reposición</h3>
+                <p>Todo lo que necesitas para tu hogar.</p>
+            </a>
+        </li>
+    </ul>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_acetaminofen_jarabe_cereza_120ml.jpg" alt="Acetaminofen Jarabe Cereza 120 ml Padiátrico Ramos">
+            <h4>Acetaminofen Jarabe Cereza 120 ml Padiátrico Ramos</h4>
+            <p>C$43.70 NIO</p>
+            <button class="agregar-carrito" data-producto="Acetaminofen Jarabe Cereza" data-precio="43.70">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_irs_jarabe_pediatrico_120ml.jpg" alt="IRS Jarabe Pediátrico 120 ml Infasa">
+            <h4>IRS Jarabe Pediátrico 120 ml Infasa</h4>
+            <p>C$197.22 NIO</p>
+            <button class="agregar-carrito" data-producto="IRS Jarabe Pediátrico" data-precio="197.22">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_acetaminofen_jarabe_120ml.jpg" alt="Acetaminofen Jarabe 120 ml Caplin">
+            <h4>Acetaminofen Jarabe 120 ml Caplin</h4>
+            <p>C$74.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Acetaminofen Jarabe" data-precio="74.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_alicol_d_jarabe_120ml.jpg" alt="Alicol D Jarabe 120 ml Adultos y Niños Mayor 2 Años / Uni">
+            <h4>Alicol D Jarabe 120 ml Adultos y Niños Mayor 2 Años / Uni</h4>
+            <p>C$104.65 NIO</p>
+            <button class="agregar-carrito" data-producto="Alicol D Jarabe" data-precio="104.65">Agregar a carrito</button>
+        </li>
+        
+        <!-- Repite la estructura para los demás productos -->
+    </ul>
+</section>
+
+
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>

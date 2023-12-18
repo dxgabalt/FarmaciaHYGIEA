@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+    <title>Farmacia JJ..HYGIEA - Analgésicos</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo Farmacia JJ..HYGIEA" style="max-width: 140px; border-radius: 70px;">
+    </div>
+    <h1>Farmacia JJ..HYGIEA</h1>
+    <nav>
+        <!-- Dentro de <nav> -->
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Catálogo</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+        <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+    </nav>
+</header>
+
+<section id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <ul class="productos-lista">
+        <!-- Producto 1 -->
+        <li>
+            <img src="imagen_dexavitalgia_ampolla_2ml.jpg" alt="Dexavitalgia Ampolla 2ml IM. Ramos">
+            <h4>Dexavitalgia Ampolla 2ml IM. Ramos</h4>
+            <p>C$121.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexavitalgia" data-precio="121.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 2 -->
+        <li>
+            <img src="imagen_vitalgia_10000_vit_b1_6_12_lidocaina.jpg" alt="Vitalgia 10,000 Vit B1,6,12,+ Lidocaina IM. Ramos">
+            <h4>Vitalgia 10,000 Vit B1,6,12,+ Lidocaina IM. Ramos</h4>
+            <p>C$58.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitalgia 10,000" data-precio="58.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 3 -->
+        <li>
+            <img src="imagen_vitalgia_25000_vit_b1_6_12_lidocaina.jpg" alt="Vitalgia 25,000 Vit B1,6,12,+ Lidocaina IM. Ramos">
+            <h4>Vitalgia 25,000 Vit B1,6,12,+ Lidocaina IM. Ramos</h4>
+            <p>C$85.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitalgia 25,000" data-precio="85.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 4 -->
+        <li>
+            <img src="imagen_doloneurovit_ampolla_im_75mg.jpg" alt="Doloneurovit Ampolla IM 75mg. Panzyma">
+            <h4>Doloneurovit Ampolla IM 75mg. Panzyma</h4>
+            <p>C$88.55 NIO</p>
+            <button class="agregar-carrito" data-producto="Doloneurovit" data-precio="88.55">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 5 -->
+        <li>
+            <img src="imagen_neurovit_vit_b1_b6_b12_ampolla_im_10mil.jpg" alt="Neurovit Vit B1,B6,B12. Ampolla IM 10mil. Panzyma">
+            <h4>Neurovit Vit B1,B6,B12. Ampolla IM 10mil. Panzyma</h4>
+            <p>C$69.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Neurovit 10mil" data-precio="69.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 6 -->
+        <li>
+            <img src="imagen_neurovit_vit_b1_b6_b12_ampolla_im_25mil.jpg" alt="Neurovit Vit B1,B6,B12. Ampolla IM 25mil. Panzyma">
+            <h4>Neurovit Vit B1,B6,B12. Ampolla IM 25mil. Panzyma</h4>
+            <p>C$92.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Neurovit 25mil" data-precio="92.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 7 -->
+        <li>
+            <img src="imagen_ultra_doceplex_ampola_im_energizante_antiestres.jpg" alt="Ultra Doceplex Ampola IM. Energizante y Antiestres. Vijosa">
+            <h4>Ultra Doceplex Ampola IM. Energizante y Antiestres. Vijosa</h4>
+            <p>C$182.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Ultra Doceplex" data-precio="182.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 8 -->
+        <li>
+            <img src="imagen_vitadar_iv_im_complejo_b12.jpg" alt="Vitadar IV/IM Complejo B12. Reannon">
+            <h4>Vitadar IV/IM Complejo B12. Reannon</h4>
+            <p>C$32.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Vitadar IV/IM" data-precio="32.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 9 -->
+        <li>
+            <img src="imagen_panoxine_centrofenoxine_vitamina_im_ampolla_5ml.jpg" alt="Panoxine/Centrofenoxine. Vitamina. IM Ampolla 5ml. Panzyma">
+            <h4>Panoxine/Centrofenoxine. Vitamina. IM Ampolla 5ml. Panzyma</h4>
+            <p>C$118.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Panoxine" data-precio="118.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 10 -->
+        <li>
+            <img src="imagen_coxone_dexketoprofeno_ampolla_im_50mg.jpg" alt="Coxone/Dexketoprofeno Ampolla IM 50mg. Panzyma">
+            <h4>Coxone/Dexketoprofeno Ampolla IM 50mg. Panzyma</h4>
+            <p>C$110.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Coxone" data-precio="110.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 11 -->
+        <li>
+            <img src="imagen_unicil_1millon_200mil_antibiotico_im.jpg" alt="Unicil 1Millon 200Mil Antibiotico IM. Uni">
+            <h4>Unicil 1Millon 200Mil Antibiotico IM. Uni</h4>
+            <p>C$184.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Unicil 1Millon" data-precio="184.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 12 -->
+        <li>
+            <img src="imagen_rinoxine_s_ceftriaxona_sulbactan_iv_im.jpg" alt="Rinoxine-S/Ceftriaxona + Sulbactan IV/IM. Reannon">
+            <h4>Rinoxine-S/Ceftriaxona + Sulbactan IV/IM. Reannon</h4>
+            <p>C$542.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Rinoxine-S" data-precio="542.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 13 -->
+        <li>
+            <img src="imagen_rocefort_cextriaxona_1_gramo_im.jpg" alt="Rocefort/Cextriaxona 1 Gramo IM. Vijosa">
+            <h4>Rocefort/Cextriaxona 1 Gramo IM. Vijosa</h4>
+            <p>C$106.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Rocefort" data-precio="106.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 14 -->
+        <li>
+            <img src="imagen_dexaren_dexametasona_im_iv.jpg" alt="Dexaren/Dexametasona IM/IV. Reannon">
+            <h4>Dexaren/Dexametasona IM/IV. Reannon</h4>
+            <p>C$55.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexaren" data-precio="55.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 15 -->
+        <li>
+            <img src="imagen_omeprazol_40mg_iv_caplin.jpg" alt="Omeprazol 40mg IV. Caplin">
+            <h4>Omeprazol 40mg IV. Caplin</h4>
+            <p>C$81.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Omeprazol" data-precio="81.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 16 -->
+        <li>
+            <img src="imagen_flekton_ketoprofeno_im.jpg" alt="Flekton/Ketoprofeno IM. Reannon">
+            <h4>Flekton/Ketoprofeno IM. Reannon</h4>
+            <p>C$60.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Flekton" data-precio="60.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 17 -->
+        <li>
+            <img src="imagen_complejo_b12_ampolla_inyeccion_panzyma.jpg" alt="Complejo B12 Ampolla. Inyeccion. Panzyma">
+            <h4>Complejo B12 Ampolla. Inyeccion. Panzyma</h4>
+            <p>C$63.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Complejo B12" data-precio="63.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 18 -->
+        <li>
+            <img src="imagen_espasmo_dolofor_im_iv_uni.jpg" alt="Espasmo Dolofor IM/IV. Uni , Dolor, Espasmo Intestinal, Colico">
+            <h4>Espasmo Dolofor IM/IV. Uni , Dolor, Espasmo Intestinal, Colico</h4>
+            <p>C$125.10 NIO</p>
+            <button class="agregar-carrito" data-producto="Espasmo Dolofor" data-precio="125.10">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 19 -->
+        <li>
+            <img src="imagen_dolofin_dipirona_2gr_inyeccion_uni.jpg" alt="Dolofin Dipirona 2gr Inyeccion. Uni">
+            <h4>Dolofin Dipirona 2gr Inyeccion. Uni</h4>
+            <p>C$114.96 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolofin Dipirona" data-precio="114.96">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 20 -->
+        <li>
+            <img src="imagen_dolo_doceplex_diclofenac_vitamina_im.jpg" alt="Dolo Doceplex Diclofenac + Vitamina IM. Vijosa">
+            <h4>Dolo Doceplex Diclofenac + Vitamina IM. Vijosa</h4>
+            <p>C$121.81 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolo Doceplex" data-precio="121.81">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 21 -->
+        <li>
+            <img src="imagen_alin_dexametasona_4mg_im_iv.jpg" alt="Alin Dexametasona. 4 mg IM/IV. Chinoín">
+            <h4>Alin Dexametasona. 4 mg IM/IV. Chinoín</h4>
+            <p>C$89.57 NIO</p>
+            <button class="agregar-carrito" data-producto="Alin Dexametasona" data-precio="89.57">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 22 -->
+        <li>
+            <img src="imagen_dexketoprofeno_im_iv_ramos.jpg" alt="Dexketoprofeno IM/IV. Ramos">
+            <h4>Dexketoprofeno IM/IV. Ramos</h4>
+            <p>C$119.57 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexketoprofeno" data-precio="119.57">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 23 -->
+        <li>
+            <img src="imagen_relaflex_relajante_muscular_im.jpg" alt="Relaflex Relajante Muscular IM. Vijosa">
+            <h4>Relaflex Relajante Muscular IM. Vijosa</h4>
+            <p>C$90.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Relaflex" data-precio="90.00">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 24 -->
+        <li>
+            <img src="imagen_ketorolac_dolores_im_60mg_2ml_panzyma.jpg" alt="Ketorolac Dolores IM. 60mg/2ml. Panzyma">
+            <h4>Ketorolac Dolores IM. 60mg/2ml. Panzyma</h4>
+            <p>C$122.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Ketorolac Dolores" data-precio="122.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 25 -->
+        <li>
+            <img src="imagen_virogrip_balsamica_antigripal_im.jpg" alt="Virogrip Balsámica Antigripal IM. Vijosa">
+            <h4>Virogrip Balsámica Antigripal IM. Vijosa</h4>
+            <p>C$125.80 NIO</p>
+            <button class="agregar-carrito" data-producto="Virogrip Balsámica" data-precio="125.80">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 26 -->
+        <li>
+            <img src="imagen_diclofenac_sodico_im_ampolla_marlex_unidad.jpg" alt="Diclofenac Sódico IM Ampolla Marlex Unidad">
+            <h4>Diclofenac Sódico IM Ampolla Marlex Unidad</h4>
+            <p>C$9.60 NIO</p>
+            <button class="agregar-carrito" data-producto="Diclofenac Sódico" data-precio="9.60">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 27 -->
+        <li>
+            <img src="imagen_unicil_6_3_3_antibiotico_ninos_adultos_im_uni.jpg" alt="Unicil 6-3-3 Antibiotico Niños y Adultos IM. Uni">
+            <h4>Unicil 6-3-3 Antibiotico Niños y Adultos IM. Uni</h4>
+            <p>C$128.28 NIO</p>
+            <button class="agregar-carrito" data-producto="Unicil 6-3-3" data-precio="128.28">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 28 -->
+        <li>
+            <img src="imagen_dolovitalgia_diclofenac_sodico_vitamina_im_ram.jpg" alt="Dolovitalgia Diclofenac Sódico + Vitamina IM. Ramos">
+            <h4>Dolovitalgia Diclofenac Sódico + Vitamina IM. Ramos</h4>
+            <p>C$97.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Dolovitalgia" data-precio="97.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 29 -->
+        <li>
+            <img src="imagen_dexametasona_4mg_im_iv_panzyma.jpg" alt="Dexametasona 4 mg IM/IV. Panzyma">
+            <h4>Dexametasona 4 mg IM/IV. Panzyma</h4>
+            <p>C$27.34 NIO</p>
+            <button class="agregar-carrito" data-producto="Dexametasona" data-precio="27.34">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 30 -->
+        <li>
+            <img src="imagen_lidolex_lidocaina_anestesia_inyeccion.jpg" alt="Lidolex Lidocaína Anestesia Inyección">
+            <h4>Lidolex Lidocaína Anestesia Inyección</h4>
+            <p>C$131.75 NIO</p>
+            <button class="agregar-carrito" data-producto="Lidolex" data-precio="131.75">Agregar a carrito</button>
+        </li>
+
+        <!-- Producto 31 -->
+        <li>
+            <img src="imagen_enantyum_inyeccion_caja_x_3_ampolla.jpg" alt="Enantyum Inyección Caja x 3 Ampolla">
+            <h4>Enantyum Inyección Caja x 3 Ampolla</h4>
+            <p>C$519.00 NIO</p>
+            <button class="agregar-carrito" data-producto="Enantyum" data-precio="519.00">Agregar a carrito</button>
+        </li>
+    </ul>
+</section>
+     
+
+<!-- Otras secciones o contenido adicional que desees en la página -->
+
+<section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul class="carrito-lista">
+        <!-- Lista de productos en el carrito -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+
+<footer>
+    <!-- Tu pie de página aquí, como en tu archivo original -->
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>
